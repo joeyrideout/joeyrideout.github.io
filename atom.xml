@@ -4,7 +4,7 @@
   <title><![CDATA[Joey Rideout]]></title>
   <link href="http://joeyrideout.github.io/atom.xml" rel="self"/>
   <link href="http://joeyrideout.github.io/"/>
-  <updated>2013-07-07T21:45:54-06:00</updated>
+  <updated>2013-07-07T21:50:02-06:00</updated>
   <id>http://joeyrideout.github.io/</id>
   <author>
     <name><![CDATA[Joey Rideout]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Setting Up Octopress on GitHub Pages]]></title>
+    <link href="http://joeyrideout.github.io/blog/2013/07/07/setting-up-octopress-on-github-pages/"/>
+    <updated>2013-07-07T21:49:00-06:00</updated>
+    <id>http://joeyrideout.github.io/blog/2013/07/07/setting-up-octopress-on-github-pages</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why I am Creating This Blog]]></title>
