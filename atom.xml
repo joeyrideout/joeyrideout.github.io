@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Joey Rideout]]></title>
+  <link href="http://joeyrideout.github.io/atom.xml" rel="self"/>
+  <link href="http://joeyrideout.github.io/"/>
+  <updated>2013-07-07T21:31:37-06:00</updated>
+  <id>http://joeyrideout.github.io/</id>
+  <author>
+    <name><![CDATA[Joey Rideout]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
