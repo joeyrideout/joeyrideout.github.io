@@ -8,7 +8,7 @@
         <loc>
             http://joeyrideout.github.io/blog/2013/07/07/setting-up-octopress-on-github-pages/
         </loc>
-        <lastmod>2013-07-10T22:46:05-06:00</lastmod>
+        <lastmod>2013-07-11T01:20:31-06:00</lastmod>
     </url>
     <url>
         <loc>http://joeyrideout.github.io/about/</loc>
@@ -16,11 +16,19 @@
     </url>
     <url>
         <loc>http://joeyrideout.github.io/blog/archives/</loc>
-        <lastmod>2013-07-10T22:46:05-06:00</lastmod>
+        <lastmod>2013-07-11T01:20:31-06:00</lastmod>
     </url>
     <url>
         <loc>http://joeyrideout.github.io/</loc>
-        <lastmod>2013-07-10T22:46:05-06:00</lastmod>
+        <lastmod>2013-07-11T01:20:31-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joeyrideout.github.io/photography/</loc>
+        <lastmod>2013-07-11T01:17:26-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joeyrideout.github.io/photography/toronto.html</loc>
+        <lastmod>2013-07-11T00:52:38-06:00</lastmod>
     </url>
     <url>
         <loc>http://joeyrideout.github.io/robots.txt</loc>

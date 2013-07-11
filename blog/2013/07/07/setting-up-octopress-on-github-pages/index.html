@@ -53,11 +53,19 @@
     <h2 id="subtitle">My blog about technology, photography, and security.</h2>
   </li>
 
+  <li class="blog">
+    <a href="/">blog</a>
+  </li>
+  <li class="link">
+    <a href="/photography/">photography</a>
+  </li>
   <li class="link">
     <a href="/about/">about</a>
   </li>
 
 
+
+  
 <!--
   <li class="link rss">
     <a href="/atom.xml">rss feed</a>
@@ -128,9 +136,18 @@
 
 <p>Of course, you need to <a href="http://git-scm.com/">install Git</a> in order to start working with GitHub Pages. However, Octopress did not cooperate with my Git installation until I added <em>Git.exe</em> to my system&rsquo;s PATH. To do that, right-click on <em>My Computer</em>, select <em>Properties</em>, and then <em>Advanced system settings</em>. From the <em>Advanced</em> tab that you are currently on, click the <em>Environment Variables</em> button at the bottom. Edit <em>Path</em> and add the directory with your newly installed Git executable, separated from the last entry with a semicolon. For example, <code>&hellip;;C:\Program Files (x86)\Git\bin</code></p>
 
-<p>You will also need to install Ruby 1.9.3 as well as the Ruby DevKit that Octopress depends on. The original Octopress guide does not provide Windows installation instructions for Ruby, but you can find some convenient Windows installers <a href="http://rubyinstaller.org/downloads/">here</a>.</p>
+<p>You will also need to install Ruby 1.9.3 as well as the Ruby DevKit that Octopress depends on. The original Octopress guide does not provide Windows installation instructions for Ruby, but you can find some convenient Windows installers <a href="http://rubyinstaller.org/downloads/">here</a>. The Ruby installer is automatic, but the DevKit needs to be manually extracted into a permanent installation folder of your choice (I used <code>C:\DevKit</code>). After installing Ruby and extracting the DevKit, open up Windows PowerShell and do the following to install:</p>
 
-<p>After getting those software packages installed, you should be able to follow the rest of Octopress&#8217; installation instructions without any problems. I will paraphrase the steps below (which I executed in Windows Powershell).</p>
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd </span>C:/DevKit
+</span><span class='line'>ruby dk.rb init
+</span><span class='line'>ruby dk.rb install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After getting those software packages installed, you should be able to follow the rest of Octopress&#8217; installation instructions without any problems. I will paraphrase the steps below.</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -185,6 +202,8 @@
 
 
 <p>Now you&rsquo;re ready to get <a href="http://octopress.org/docs/blogging/">blogging with Octopress</a>. All you have to do after updating your site is run the <code>rake generate</code> and <code>rake deploy</code> commands and commit your source branch again to backup your Octopress files.</p>
+
+<p>Happy blogging!</p>
 
 
 
