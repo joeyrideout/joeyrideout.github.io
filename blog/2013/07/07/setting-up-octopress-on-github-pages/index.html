@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Setting Up Octopress on GitHub Pages - Joey Rideout</title>
+  <title>Configuring Octopress on GitHub Pages Using Windows 8 - Joey Rideout</title>
   <meta name="author" content="Joey Rideout">
 
   
-  <meta name="description" content=" Tweet Setting Up Octopress on GitHub Pages Jul 7th, 2013 ">
+  <meta name="description" content="Tweet Configuring Octopress on GitHub Pages Using Windows 8 Jul 7th, 2013 I recently finished getting this Octopress blog running on GitHub Pages, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -50,7 +50,7 @@
 
 
   <li class="subtitle">
-    <h2 id="subtitle">A blog about technology, photography, and security.</h2>
+    <h2 id="subtitle">My blog about technology, photography, and security.</h2>
   </li>
 
   <li class="link">
@@ -102,7 +102,7 @@
   
   <header>
     
-      <h2 class="entry-title">Setting Up Octopress on GitHub Pages</h2>
+      <h2 class="entry-title">Configuring Octopress on GitHub Pages Using Windows 8</h2>
     
     
       <p class="meta">
@@ -125,7 +125,70 @@
   </header>
 
 
+<p>I recently finished getting this Octopress blog running on GitHub Pages, and I couldn&rsquo;t be happier with the result. It took a bit of work to get up and running, however, so I figured that I should document some of the hurdles I had to jump through on Windows to get this blog deployed. The <a href="http://octopress.org/docs/setup/">default installation instructions for Octopress</a> were generally okay, but a couple of unexpected errors arose that left me hanging.</p>
 
+<!-- more -->
+
+
+<p>Of course, you need to <a href="http://git-scm.com/">install Git</a> in order to start working with GitHub Pages. However, Octopress did not cooperate with my Git installation until I added <em>Git.exe</em> to my system&rsquo;s PATH. To do that, right-click on <em>My Computer</em>, select <em>Properties</em>, and then <em>Advanced system settings</em>. From the <em>Advanced</em> tab that you are currently on, click the <em>Environment Variables</em> button at the bottom. Edit <em>Path</em> and add the directory with your newly installed Git executable, separated from the last entry with a semicolon. For example, <code>&hellip;;C:\Program Files (x86)\Git\bin</code></p>
+
+<p>You will also need to install Ruby 1.9.3 as well as the Ruby DevKit that Octopress depends on. The original Octopress guide does not provide Windows installation instructions for Ruby, but you can find some convenient Windows installers <a href="http://rubyinstaller.org/downloads/">here</a>.</p>
+
+<p>After getting those software packages installed, you should be able to follow the rest of Octopress&#8217; installation instructions without any problems. I will paraphrase the steps below (which I executed in Windows Powershell).</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> <span class="o">[</span>path to your GitHub directory<span class="o">]</span>/GitHub/
+</span><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'><span class="nb">cd </span>octopress
+</span><span class='line'>ruby --version <span class="c"># Assert that Ruby 1.9.3 is installed and working</span>
+</span><span class='line'>
+</span><span class='line'>gem install bundler
+</span><span class='line'>bundle install
+</span><span class='line'>
+</span><span class='line'>rake install <span class="c"># Installs default theme</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now that Octopress is installed, it&rsquo;s time to <a href="http://octopress.org/docs/deploying/github/">deploy your site to GitHub</a>. Note that all of your blog administration will be run from the <code>/GitHub/octopress</code> directory, and not from your site&rsquo;s directory that will be generated in the next step.</p>
+
+<p>Assuming you have already <a href="https://github.com/">signed up with GitHub</a>, create a repository <code>username.github.io</code> where <code>username</code> is your GitHub username. Note that the Octopress deployment instructions call for you to use a <code>.com</code> user domain; due to recent changes to GitHub Pages, however, <code>.io</code> domains are now used for all pages.</p>
+
+<p>Next, still from your <code>octopress</code> directory, run the command:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake setup_github_pages
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This gets Octopress ready to publish your site to GitHub Pages. It sets your <em>master</em> branch to <code>_deploy</code>, which is the content that will be published on your <code>username.github.io</code> site. The <code>source</code> directory of your Octopress site is set to the <em>source</em> active branch. To finish deploying your site, run the following:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
+</span><span class='line'>rake deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Your site has now been generated and published to your <code>username.github.io</code> domain. It took ten minutes for mine to appear initially. Be sure to commit the source branch of your Octopress site to GitHub whenever you make changes.</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git add .
+</span><span class='line'>git commit -m <span class="s1">&#39;commit message&#39;</span>
+</span><span class='line'>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now you&rsquo;re ready to get <a href="http://octopress.org/docs/blogging/">blogging with Octopress</a>. All you have to do after updating your site is run the <code>rake generate</code> and <code>rake deploy</code> commands and commit your source branch again to backup your Octopress files.</p>
 
 
 

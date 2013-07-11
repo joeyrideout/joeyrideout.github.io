@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Joey Rideout]]></title>
-  <link href="http://joeyrideout.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: web | Joey Rideout]]></title>
+  <link href="http://joeyrideout.github.io/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://joeyrideout.github.io/"/>
   <updated>2013-07-10T22:02:01-06:00</updated>
   <id>http://joeyrideout.github.io/</id>
@@ -27,9 +27,9 @@
 
 <p>You will also need to install Ruby 1.9.3 as well as the Ruby DevKit that Octopress depends on. The original Octopress guide does not provide Windows installation instructions for Ruby, but you can find some convenient Windows installers <a href="http://rubyinstaller.org/downloads/">here</a>.</p>
 
-<p>After getting those software packages installed, you should be able to follow the rest of Octopress&#8217; installation instructions without any problems. I will paraphrase the steps below (which I executed in Windows Powershell).</p>
+<p>After getting those software packages installed, you should be able to follow the rest of Octopress' installation instructions without any problems. I will paraphrase the steps below (which I executed in Windows Powershell).</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -41,14 +41,13 @@
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> <span class="o">[</span>path to your GitHub directory<span class="o">]</span>/GitHub/
 </span><span class='line'>git clone git://github.com/imathis/octopress.git octopress
 </span><span class='line'><span class="nb">cd </span>octopress
-</span><span class='line'>ruby --version <span class="c"># Assert that Ruby 1.9.3 is installed and working</span>
+</span><span class='line'>ruby &amp;mdash;version <span class="c"># Assert that Ruby 1.9.3 is installed and working&lt;/p&gt;</span>
 </span><span class='line'>
-</span><span class='line'>gem install bundler
-</span><span class='line'>bundle install
+</span><span class='line'>&lt;p&gt;gem install bundler
+</span><span class='line'>bundle install&lt;/p&gt;
 </span><span class='line'>
-</span><span class='line'>rake install <span class="c"># Installs default theme</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span><span class='line'>&lt;p&gt;rake install <span class="c"># Installs default theme</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Now that Octopress is installed, it&rsquo;s time to <a href="http://octopress.org/docs/deploying/github/">deploy your site to GitHub</a>. Note that all of your blog administration will be run from the <code>/GitHub/octopress</code> directory, and not from your site&rsquo;s directory that will be generated in the next step.</p>
 
@@ -56,65 +55,29 @@
 
 <p>Next, still from your <code>octopress</code> directory, run the command:</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake setup_github_pages
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This gets Octopress ready to publish your site to GitHub Pages. It sets your <em>master</em> branch to <code>_deploy</code>, which is the content that will be published on your <code>username.github.io</code> site. The <code>source</code> directory of your Octopress site is set to the <em>source</em> active branch. To finish deploying your site, run the following:</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
 </span><span class='line'>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Your site has now been generated and published to your <code>username.github.io</code> domain. It took ten minutes for mine to appear initially. Be sure to commit the source branch of your Octopress site to GitHub whenever you make changes.</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git add .
-</span><span class='line'>git commit -m <span class="s1">&#39;commit message&#39;</span>
+</span><span class='line'>git commit -m &amp;lsquo;commit message&amp;rsquo;
 </span><span class='line'>git push origin <span class="nb">source</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Now you&rsquo;re ready to get <a href="http://octopress.org/docs/blogging/">blogging with Octopress</a>. All you have to do after updating your site is run the <code>rake generate</code> and <code>rake deploy</code> commands and commit your source branch again to backup your Octopress files.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Why I am Creating This Blog]]></title>
-    <link href="http://joeyrideout.github.io/blog/2013/07/07/why-i-am-creating-this-blog/"/>
-    <updated>2013-07-07T21:36:00-06:00</updated>
-    <id>http://joeyrideout.github.io/blog/2013/07/07/why-i-am-creating-this-blog</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Intro]]></title>
-    <link href="http://joeyrideout.github.io/blog/2012/07/22/intro/"/>
-    <updated>2012-07-22T08:23:00-06:00</updated>
-    <id>http://joeyrideout.github.io/blog/2012/07/22/intro</id>
-    <content type="html"><![CDATA[<p>Testing!</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin, massa eu vestibulum laoreet, nibh ante vulputate lorem, ac lobortis ante tellus eu mi. Duis sem nisi, luctus at feugiat eget, fringilla ut tellus. Nam a molestie justo. Sed pulvinar est vitae tellus semper tincidunt. Fusce euismod luctus lacus nec placerat. Mauris rutrum scelerisque nulla ut tempor. Nunc porttitor posuere mi, aliquet vehicula lorem feugiat in. Ut ut fermentum risus. Aliquam tincidunt ultricies ante sit amet bibendum. Cras nec sapien odio. Duis posuere congue sem, at congue massa faucibus at.</p>
-
-<p><img src="http://raw.github.com/joeyrideout/joeyrideout.github.io/master/images/heroBack.JPG" height="400" width="600"></p>
-
-<p>Integer ut sapien eget nisl auctor faucibus ut fermentum arcu. Nunc rutrum urna non risus congue et tristique felis eleifend. Maecenas blandit est eu mauris aliquam aliquet. Quisque porttitor enim eget risus blandit in mollis orci eleifend. Nam malesuada nulla sed lacus elementum placerat accumsan arcu rhoncus. Phasellus feugiat cursus turpis nec facilisis. Duis eget metus arcu, eget commodo velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer cursus vulputate enim, vel gravida velit faucibus et. Ut a urna vitae tellus cursus rhoncus. Maecenas at odio eget quam cursus elementum. Aliquam vitae eros quis tellus laoreet accumsan sed id lorem. Suspendisse et rutrum leo. Integer scelerisque vestibulum adipiscing. In posuere, libero ac accumsan suscipit, nulla ligula gravida erat, ut tempor odio erat nec sem. Quisque justo ipsum, adipiscing volutpat varius vitae, blandit eget nisi.</p>
-
-<!-- more -->
-
-
-<p>Nullam adipiscing neque ac lacus commodo vitae imperdiet dui sollicitudin. Ut ac nunc augue. Nam at sem ut quam commodo aliquet vitae vitae dui. Vivamus scelerisque felis eget dolor cursus feugiat. Phasellus at dui sed lectus scelerisque pretium. Etiam nec massa ut justo vestibulum fringilla ac vitae urna. Morbi tortor erat, tempus sed consectetur at, elementum nec eros. Vivamus mattis arcu a sapien semper non lacinia eros pretium.</p>
-
-<p>Proin ut hendrerit arcu. Maecenas ullamcorper tristique magna vel mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam tincidunt euismod viverra. In sit amet neque turpis. Suspendisse ac sapien mi, id blandit purus. Ut tortor turpis, rutrum ac tempor at, accumsan sit amet erat. Etiam ultricies eleifend dolor, eget tempus justo tristique vitae. In hac habitasse platea dictumst. Aliquam eu enim neque.</p>
-
-<p>Morbi massa lorem, viverra non dictum at, malesuada vel nibh. Nam fermentum lobortis varius. Sed a nulla lacus, quis posuere risus. Nunc id urna libero, quis rutrum mi. In gravida felis urna. Praesent nec dolor ac urna tempor fermentum. Curabitur rutrum arcu et lorem volutpat viverra.</p>
 ]]></content>
   </entry>
   
