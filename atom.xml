@@ -4,7 +4,7 @@
   <title><![CDATA[Joey Rideout]]></title>
   <link href="http://joeyrideout.github.io/atom.xml" rel="self"/>
   <link href="http://joeyrideout.github.io/"/>
-  <updated>2013-07-22T20:09:29-06:00</updated>
+  <updated>2013-12-26T03:41:09-05:00</updated>
   <id>http://joeyrideout.github.io/</id>
   <author>
     <name><![CDATA[Joey Rideout]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Configuring Octopress on GitHub Pages Using Windows 8]]></title>
     <link href="http://joeyrideout.github.io/blog/2013/07/07/setting-up-octopress-on-github-pages/"/>
-    <updated>2013-07-07T21:49:00-06:00</updated>
+    <updated>2013-07-07T21:49:00-04:00</updated>
     <id>http://joeyrideout.github.io/blog/2013/07/07/setting-up-octopress-on-github-pages</id>
     <content type="html"><![CDATA[<p>I recently finished getting this Octopress blog running on GitHub Pages, and I couldn&rsquo;t be happier with the result. It took a bit of work to get up and running, however, so I figured that I should document some of the hoops I had to jump through on Windows to get this blog deployed. The <a href="http://octopress.org/docs/setup/">default installation instructions for Octopress</a> were generally okay, but a couple of unexpected errors arose that left me hanging.</p>
 
@@ -99,7 +99,7 @@
   <entry>
     <title type="html"><![CDATA[Why I am Creating This Blog]]></title>
     <link href="http://joeyrideout.github.io/blog/2013/07/07/why-i-am-creating-this-blog/"/>
-    <updated>2013-07-07T21:36:00-06:00</updated>
+    <updated>2013-07-07T21:36:00-04:00</updated>
     <id>http://joeyrideout.github.io/blog/2013/07/07/why-i-am-creating-this-blog</id>
     <content type="html"><![CDATA[<!-- more -->
 
