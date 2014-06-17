@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "contact"
-date: 2013-07-12 22:46
 comments: true
 sharing: true
 footer: true
 ---
-Coming soon! I'm setting up a custom domain along with a new email address that I will place here shortly.
+Email me any time: joeyrrideout@gmail.com
+
+Or browse around my (still under construction) <a href='https://github.com/joeyrideout'>GitHub</a>
