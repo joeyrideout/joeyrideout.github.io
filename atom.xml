@@ -4,11 +4,11 @@
   <title><![CDATA[Joey Rideout]]></title>
   <link href="http://joeyrideout.github.io/atom.xml" rel="self"/>
   <link href="http://joeyrideout.github.io/"/>
-  <updated>2014-06-16T23:00:46-04:00</updated>
+  <updated>2014-06-25T00:40:48-04:00</updated>
   <id>http://joeyrideout.github.io/</id>
   <author>
     <name><![CDATA[Joey Rideout]]></name>
-    
+    <email><![CDATA[joeyrrideout@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
