@@ -1,0 +1,58 @@
+.header {
+  position: fixed;
+  height: 120px;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  background-color: rgba(73, 208, 213, 0.85);
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: rgba(33, 168, 173, 0.85);
+}
+.header a {
+    color: #000;
+}
+.header p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.header h2 {
+    margin-bottom: 0.5rem;
+}
+.sidebar {
+  position: fixed;
+  top: 120px;
+  width: 100%;
+  text-align: right;
+  z-index: 101;
+}
+.sidebar a {
+  color: #A0A0A0;
+}
+.container {
+    margin-top: 120px;
+}
+.post {
+  margin-bottom: 3rem;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+.post h5 {
+  margin-bottom: 0rem;
+}
+.post h6 {
+  color: #A0A0A0;
+}
+a.anchor{
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+.footer {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 15rem;
+}
