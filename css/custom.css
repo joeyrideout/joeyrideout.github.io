@@ -25,6 +25,9 @@
 .header h2 {
     margin-bottom: 0.5rem; /* Reduce default margin to save space. */
 }
+.title a {
+  text-decoration: none;
+}
 .container {
     margin-top: 125px; /* Align start of blog container with bottom of banner. */
 }
