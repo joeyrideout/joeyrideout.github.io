@@ -38,9 +38,8 @@
   height: 42px;
   line-height: 42px;
 }
-.nav h6 {
-  text-align: right;
-  line-height: 42px;
+.nav h4 {
+  display: inline;
 }
 .post {
   margin-bottom: 3rem;
