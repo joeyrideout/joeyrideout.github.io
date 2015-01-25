@@ -8,8 +8,11 @@ templates_folder = 'templates'
 posts_folder = 'posts'
 base_template = 'base.html'
 
+# Create Jinja2 Environment
 env = Environment(loader=PackageLoader(app_name, templates_folder))
 template = env.get_template(base_template)
+
+# Define the data model for a Post
 class Post(object):
     def __init__(self, name, date, content):
         self.name = name
@@ -18,14 +21,17 @@ class Post(object):
         self.title = name
         self.id = name.lower().replace(' ', '-')
 
+# Create container of Post objects
 posts = []
 
+# Find the path to our app
 path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
         app_name,
         posts_folder
         )
 
+# Loop through our app's 'posts/' directory
 for filename in os.listdir(path):
     fname = os.path.join(path, filename)
     with open(fname, "r") as f:
@@ -39,6 +45,8 @@ for filename in os.listdir(path):
 # Sort posts by date
 posts.sort(key=lambda r: r.date)
 
+# Render our new index.html and write it to a file
 output =  template.render(posts=posts).encode('utf-8')
 with open('index.html', 'wb') as index:
     index.write(output)
+
