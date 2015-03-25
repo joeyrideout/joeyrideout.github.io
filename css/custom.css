@@ -8,58 +8,55 @@
 
 .header { /* Static header banner. */
   text-align: center;
-  top: 0px;
-  position: fixed; /* Keep banner fixed at top of page. */
-  height: 125px; /* Height of fixed banner. */
-  overflow: hidden;
   width: 100%; /* Span banner across entire page. */
-  z-index: 100; /* Raise banner above other page content. */
-  background-color: rgba(73, 208, 213, 0.85); /* Make banner slightly transparent. */
+}
+.icons {
+  text-align: center;
+  border-top: solid;
   border-bottom: solid;
+  border-top-width: 1px;
   border-bottom-width: 1px;
-  border-color: rgba(33, 168, 173, 0.85);
+  border-color: rgba(0, 0, 0, 0.90);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+svg:hover path {
+  fill: red;
+}
+a:hover path, a:hover polygon, a:hover circle {
+  fill: red;
+}
+.two.columns {
+  max-width: 50%;
+}
+.icon {
+  width: 80%;
+  max-height: 100px;
+}
+a {
+  color: rgba(100, 100, 100, 1);
 }
 .header a {
-    color: #000; /* Make header anchor links black. */
-}
-.header h2 {
-    margin-bottom: 0.5rem; /* Reduce default margin to save space. */
+    color: rgba(0, 0, 0, 0.90); /* Make header anchor links black. */
 }
 .title a {
   text-decoration: none;
 }
-.container {
-    margin-top: 125px; /* Align start of blog container with bottom of banner. */
-}
 .about.post {
   margin-bottom: 0.5rem;
 }
-.nav {
-  height: 42px;
-  line-height: 42px;
-}
-.nav h4 {
-  display: inline;
-}
-.post {
-  margin-bottom: 3rem;
-  border-bottom: solid;
-  border-bottom-width: 1px;
-}
-.post h5 {
-  margin-bottom: 0rem;
-}
-.post h6 {
-  color: #A0A0A0;
-}
-a.anchor{ /* Adjust anchor links to land below banner. */
-    display: block;
-    position: relative;
-    top: -125px;
-    visibility: hidden;
-}
 .footer {
   text-align: center;
-  margin-top: 6rem;
-  margin-bottom: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.footer img {
+  height: 18px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.footer p {
+  margin: 0.5rem;
+  font-size: 1.4rem;
 }
