@@ -1,3 +1,1 @@
-# joeyrideout.github.io
-
-My personal landing page.
+# https://joeyrideout.com
