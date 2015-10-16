@@ -49,8 +49,8 @@
 
 <body>
   <!-- Primary container -->
-  <div class="container">
-    <section itemscope itemtype="http://data-vocabulary.org/Person">
+  <section itemscope itemtype="http://data-vocabulary.org/Person" id="landing-page">
+    <div class="container">
       <div class="row">
         <div class="twelve columns header">
           <h1 id="top" class="title">
@@ -90,8 +90,6 @@
           </a>
         </div>
       </div>
-    </section>
-    <section id="main">
       <section id="notes">
         <div class="row about">
           <div class="eight columns offset-by-two">
@@ -205,44 +203,46 @@
           </div>
         </div>
       </section>
-    </section>
 
-    <!-- Footer -->
-    <div class="footer">
-      <p>
-        PGP Public Key:
-        <a href="https://keybase.io/rideout">64A0 6661 D78F 8700</a>
-      </p>
-      <p>
-        Design, content, and 
-        <a href="https://github.com/joeyrideout/mono-wire-icons/">icons</a> 
-        by Joey Rideout<p>
-      <p>
-      <p>
-        <img alt="Creative Commons" src="images/cc.svg">
-        <img alt="CC BY Attribution" src="images/by.svg">
-      </p>
-      <p>
-        <!-- Comodo Secure Badge -->
-        <script language="JavaScript" type="text/javascript">
-          TrustLogo("https://joeyrideout.com/images/comodo_secure_76x26_white.png", "CL1", "none");
-        </script>
-      </p>
+      <!-- Footer -->
+      <div class="footer">
+        <p>
+          PGP Public Key:
+          <a itemprop="url" href="https://keybase.io/rideout">
+            64A0 6661 D78F 8700
+          </a>
+        </p>
+        <p>
+          Design, content, and
+          <a href="https://github.com/joeyrideout/mono-wire-icons/">icons</a>
+          by Joey Rideout<p>
+        <p>
+        <p>
+          <img alt="Creative Commons" src="images/cc.svg">
+          <img alt="CC BY Attribution" src="images/by.svg">
+        </p>
+        <p>
+          <!-- Comodo Secure Badge -->
+          <script type="text/javascript">
+            TrustLogo("https://joeyrideout.com/images/comodo_secure_76x26_white.png", "CL1", "none");
+          </script>
+        </p>
+      </div>
     </div>
-  </div>
 
-  <!-- Google Analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-57947845-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-57947845-1', 'auto');
+    ga('send', 'pageview');
 
-  </script>
+    </script>
 
-  <!-- End Document -->
+    <!-- End Document -->
+  </section>
 </body>
 </html>
