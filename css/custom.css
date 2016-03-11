@@ -36,7 +36,7 @@ a {
 }
 
 .header a {
-    color: rgba(0, 0, 0, 0.90); /* Make header anchor links black. */
+    color: #1D2E3B;
 }
 
 .title a {
