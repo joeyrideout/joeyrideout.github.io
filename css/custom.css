@@ -45,6 +45,9 @@ a {
 .about.post {
   margin-bottom: 0.5rem;
 }
+ol {
+  font-family: Arial,sans-serif;
+}
 .footer {
   text-align: center;
   margin-top: 5rem;
