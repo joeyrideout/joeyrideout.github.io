@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html amp lang="en">
 
 <head>
   <!-- Basic Page Needs -->
@@ -11,8 +11,13 @@
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- CSS + Megrim Font -->
-  <link rel="stylesheet" href="css/joeyrideout.min.css">
+  <!-- AMP Mobile Boilerplate -->
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <!-- AMP CSS -->
+  <style amp-custom>
+    @font-face{font-family:'Cabin';font-style:normal;font-weight:400;src:local('Cabin Regular'),local('Cabin-Regular'),url(https://fonts.gstatic.com/s/cabin/v8/yQOMOX5hR0-6LTD879t-PQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Lobster';font-style:normal;font-weight:400;src:local('Lobster'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v16/cycBf3mfbGkh66G5NhszPQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}img{border:0}.container{position:relative;width:100%;max-width:960px;margin:0 auto;padding:0 20px;box-sizing:border-box}.columns{width:100%;float:left;box-sizing:border-box}@media(min-width:400px){.container{width:85%;padding:0}}@media(min-width:550px){.container{width:80%}.columns{margin-left:4%}.columns:first-child{margin-left:0}.twelve.columns{width:100%;margin-left:0}}html{font-size:62.5%}body{font-size:1.9em;line-height:1.8;font-weight:400;font-family:"Lobster","Lobster Regular",Arial,sans-serif;color:#1d2e3b}p{font-family:Arial,sans-serif}h1,h2{margin-top:0;margin-bottom:2rem;font-weight:300}h1{font-size:8.0rem;line-height:1.2;letter-spacing:-.1rem}h2{font-size:4.0rem;line-height:1.25;letter-spacing:-.1rem}@media(min-width:550px){h1{font-size:10.0rem}h2{font-size:4.2rem}}p{margin-top:0}a{color:#1eaedb}a:hover{color:#0fa0ce}.button{display:inline-block;height:38px;padding:0 30px;color:#fff;text-align:center;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:#1d2e3b;border-radius:4px;border:1px solid #fff;cursor:pointer;box-sizing:border-box}.button:hover,.button:focus{background-color:#fff;color:#1d2e3b;border-color:#1d2e3b;outline:0}ol{list-style:decimal inside}ol{padding-left:0;margin-top:0}li{margin-bottom:1rem}.button{margin-bottom:1rem}p,ol{margin-bottom:2.5rem}p{margin-top:0}.container:after,.row:after{content:"";display:table;clear:both}.header{text-align:center;width:100%}.icons{text-align:center;padding-bottom:50px}.icon{margin:15px}a{color:rgba(100,100,100,1)}.profile-photo{text-align:center;margin-top:25px}.header a{color:#1d2e3b}.title a{text-decoration:none}ol{font-family:Arial,sans-serif}.footer{text-align:center;margin-top:5rem;margin-bottom:5rem}.footer img{height:18px;color:rgba(0,0,0,0.75)}.footer p{margin:.5rem;font-size:1.4rem}
+  </style>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -41,7 +46,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://joeyrideout.com" />
   <meta property="og:image" content="https://joeyrideout.com/images/boe.jpg" />
-
+ 
+  <!-- AMP JS Library -->
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head> 
 
 <body>
@@ -50,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns profile-photo">
-            <img alt="Joey's Profile Photo" id="profile-photo" src="images/boe.jpg" height="200px" width="200px">
+          <amp-img alt="Joey's Profile Photo" id="profile-photo" src="images/boe.jpg" height="200px" width="200px"></amp-img>
         </div>
       </div>
       <div class="row">
@@ -63,25 +70,25 @@
       <div class="row">
         <div class="twelve columns icons">
           <a href="https://twitter.com/joey_rideout" target="_blank">
-            <img alt="Joey Rideout on Twitter" id="twitter-logo" src="images/twitter_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout on Twitter" id="twitter-logo" src="images/twitter_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="https://medium.com/@joey_rideout" target="_blank">
-            <img alt="Joey Rideout on Medium" id="medium-logo" src="images/medium_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout on Medium" id="medium-logo" src="images/medium_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="https://snapchat.com/add/joey403" target="_blank">
-            <img alt="Joey Rideout on Snapchat" id="snapchat-logo" src="images/snapchat_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout on Snapchat" id="snapchat-logo" src="images/snapchat_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="https://github.com/joeyrideout" target="_blank">
-            <img alt="Joey Rideout on GitHub" id="github-logo" src="images/github_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout on GitHub" id="github-logo" src="images/github_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="https://ca.linkedin.com/in/joeyrideout" target="_blank">
-            <img alt="Joey Rideout on LinkedIn" id="linkedin-logo" src="images/linkedin_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout on LinkedIn" id="linkedin-logo" src="images/linkedin_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="static/resume.pdf" target="_blank">
-            <img alt="Joey Rideout's Resume" id="resume-logo" src="images/document_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout's Resume" id="resume-logo" src="images/document_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
           <a href="mailto:joey.r.rideout@gmail.com">
-            <img alt="Joey Rideout Email" id="email-logo" src="images/email_blue.png" height="39px" width="39px" class="icon">
+            <amp-img alt="Joey Rideout Email" id="email-logo" src="images/email_blue.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
         </div>
       </div>
@@ -127,7 +134,7 @@
               issues in my community and around the world. I enjoy learning
               about alternate perspectives, upholding a great work-life balance,
               and not taking myself too seriously
-              <img alt="Laughing with tears of joy emoji" src="./images/laugh.png" height="19px" width="19px">
+              <amp-img alt="Laughing with tears of joy emoji" src="./images/laugh.png" height="19px" width="19px"></amp-img>
             </p>
             <h2>Contact Me</h2>
             <p>
@@ -163,8 +170,8 @@
           Designed, written, deployed, encrypted, and optimized by Joey Rideout<p>
         <p>
         <p>
-          <img alt="Creative Commons" src="images/cc.svg" height="18px" width="18px">
-          <img alt="CC BY Attribution" src="images/by.svg" height="18px" width="18px">
+          <amp-img alt="Creative Commons" src="images/cc.svg" height="18px" width="18px"></amp-img>
+          <amp-img alt="CC BY Attribution" src="images/by.svg" height="18px" width="18px"></amp-img>
         </p>
       </div>
     </div>
