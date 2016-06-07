@@ -42,6 +42,26 @@
   <meta property="og:url" content="https://joeyrideout.com" />
   <meta property="og:image" content="https://joeyrideout.com/images/boe.jpg" />
 
+  <!-- Hey Google! I'm a Person!" -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Joey Rideout",
+      "jobTitle": "Security Engineer",
+      "affiliation": "University of Waterloo",
+      "url": "https://joeyrideout.com",
+      "sameAs": [
+        "https://twitter.com/joey_rideout",
+        "https://www.linkedin.com/in/joeyrideout",
+        "https://medium.com/@joey_rideout",
+        "https://snapchat.com/add/joey403",
+        "https://github.com/joeyrideout",
+        "https://keybase.io/rideout"
+      ]
+    }
+  </script>
+
   <!-- AMP JS Library -->
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -49,7 +69,6 @@
 
 <body>
   <!-- Primary container -->
-  <section itemscope itemtype="http://data-vocabulary.org/Person" id="landing-page">
     <div class="container">
       <div class="row">
         <div class="twelve columns profile-photo">
@@ -59,7 +78,7 @@
       <div class="row">
         <div class="twelve columns header">
           <h1 id="top" class="title">
-            <a itemprop="name" href="/">Joey Rideout</a>
+            <a href="/">Joey Rideout</a>
           </h1>
         </div>
       </div>
@@ -95,10 +114,7 @@
           <div class="twelve columns">
             <h2>What I Do</h2>
             <p>
-              I am a
-              <span itemprop="title">
-                Security Engineer
-              </span>
+              I am a Security Engineer
               at <a href="http://tintup.com" target="_blank">TINT</a> in San
               Francisco and a Computer Science Co-op student at
               <a href="https://uwaterloo.ca" target="_blank">the University of Waterloo</a>
@@ -139,12 +155,12 @@
               return the favour!
             </p>
             <p>
-              Twitter: <a itemprop="url" href="https://twitter.com/joey_rideout" target="_blank">@joey_rideout</a><br>
-              Medium: <a itemprop="url" href="https://medium.com/@joey_rideout" target="_blank">@joey_rideout</a><br>
-              Snapchat: <a itemprop="url" href="https://snapchat.com/add/joey403" target="_blank">joey403</a><br>
-              GitHub: <a itemprop="url" href="https://github.com/joeyrideout" target="_blank">joeyrideout</a><br>
-              LinkedIn: <a itemprop="url" href="https://ca.linkedin.com/in/joeyrideout" target="_blank">/in/joeyrideout</a><br>
-              Wikipedia: <a itemprop="url" href="https://en.wikipedia.org/wiki/User:Joey_Rideout" target="_blank">User:Joey_Rideout</a><br>
+              Twitter: <a href="https://twitter.com/joey_rideout" target="_blank">@joey_rideout</a><br>
+              Medium: <a href="https://medium.com/@joey_rideout" target="_blank">@joey_rideout</a><br>
+              Snapchat: <a href="https://snapchat.com/add/joey403" target="_blank">joey403</a><br>
+              GitHub: <a href="https://github.com/joeyrideout" target="_blank">joeyrideout</a><br>
+              LinkedIn: <a href="https://ca.linkedin.com/in/joeyrideout" target="_blank">/in/joeyrideout</a><br>
+              Wikipedia: <a href="https://en.wikipedia.org/wiki/User:Joey_Rideout" target="_blank">User:Joey_Rideout</a><br>
               Email: <a href="mailto:joey.r.rideout@gmail.com">joey.r.rideout@gmail.com</a><br>
             </p>
             <p>
@@ -152,8 +168,8 @@
             </p>
             <h2>Send Me an Encrypted Message</h2>
             <ol>
-              <li>Type your message <a itemprop="url" href="https://keybase.io/encrypt" target="_blank">here</a>.</li>
-              <li>Search for "Joey Rideout" and select my profile (<a itemprop="url" href="https://keybase.io/rideout" target="_blank">keybase.io/rideout</a>) as the recipient.</li>
+              <li>Type your message <a href="https://keybase.io/encrypt" target="_blank">here</a>.</li>
+              <li>Search for "Joey Rideout" and select my profile (<a href="https://keybase.io/rideout" target="_blank">keybase.io/rideout</a>) as the recipient.</li>
               <li>Click the "Encrypt" button.</li>
               <li>Email or message the resulting blob of text to me. Only I will be able to decrypt it.</li>
             </ol>
@@ -193,6 +209,5 @@
     </amp-analytics>
    
     <!-- End Document -->
-  </section>
 </body>
 </html>
