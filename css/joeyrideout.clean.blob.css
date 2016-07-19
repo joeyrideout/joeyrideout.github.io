@@ -85,13 +85,16 @@ h1 {
     width: 22%;
   }
 
-  .nine.columns {
-    width: 74.0%;
+  .four.columns {
+    width: 30.6666666667%;
   }
 
-  .twelve.columns {
-    width: 100%;
-    margin-left: 0;
+  .eight.columns {
+    width: 65.3333333333%;
+  }
+
+  .nine.columns {
+    width: 74.0%;
   }
 }
 
@@ -197,6 +200,7 @@ li {
   margin-bottom: 1rem;
 }
 
+blockquote,
 p,
 ol {
   margin-bottom: 2.5rem;
