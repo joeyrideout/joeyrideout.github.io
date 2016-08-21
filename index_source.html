@@ -642,13 +642,8 @@ hr {
     display: table;
     clear: both
 }
-.header {
-    text-align: center;
-    width: 100%
-}
 .icons {
     text-align: center;
-    padding-bottom: 50px
 }
 svg:hover path {
     fill: red
@@ -662,7 +657,8 @@ a:hover circle {
     max-width: 50%
 }
 .icon {
-    margin: 20px
+    margin-left: 10px;
+    margin-right: 10px;
 }
 a {
     color: rgba(100, 100, 100, 1)
@@ -672,7 +668,7 @@ a {
     margin-top: 25px
 }
 .header a {
-    color: #1d2e3b
+    color: transparent;
 }
 .title a {
     text-decoration: none
@@ -762,18 +758,18 @@ ol {
         <div class="three columns">
           <amp-img alt="Joey's Profile Photo" id="profile-photo" src="images/iron.jpg" height="200" width="200"></amp-img>         
         </div>
-        <div class="nine columns">
+        <div class="nine columns header">
           <h1>Joey Rideout</h1>
-          <a href="https://www.facebook.com/TheRideoutHideout/" target="_blank">
+          <a href="https://www.facebook.com/TheRideoutHideout/" target="_blank" class="icon">
             <amp-img alt="Joey Rideout on Facebook" id="facebook-logo" src="images/facebook.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
-          <a href="https://snapchat.com/add/joey403" target="_blank">
+          <a href="https://snapchat.com/add/joey403" target="_blank" class="icon">
             <amp-img alt="Joey Rideout on Snapchat" id="snapchat-logo" src="images/snapchat.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
-          <a href="https://twitter.com/joey_rideout" target="_blank">
+          <a href="https://twitter.com/joey_rideout" target="_blank" class="icon">
             <amp-img alt="Joey Rideout on Twitter" id="twitter-logo" src="images/twitter.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
-          <a href="https://medium.com/@joey_rideout" target="_blank">
+          <a href="https://medium.com/@joey_rideout" target="_blank" class="icon">
             <amp-img alt="Joey Rideout on Medium" id="medium-logo" src="images/medium.png" height="39px" width="39px" class="icon"></amp-img>
           </a>
         </div>
