@@ -27,7 +27,17 @@
     h5 {
         @extend .header-txt-shadow;
     }
+    p {
+        line-height: 1.0;
+    }
+    a {
+        color: $brand-color;
+        text-decoration: underline;
+    }
 
+    a:first-child {
+        margin-top: 0.5em;
+    }
     p:last-child {
         margin-bottom: 0;
     }

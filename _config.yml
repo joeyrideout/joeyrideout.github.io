@@ -13,9 +13,14 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <h1>Hi, I'm Joey.</h1>
-     <h2>I promote security awareness and analyze security incidents in the cryptocurrency space.</h2>
-  header_text_feature_image: # assets/img/pexels/triangular.jpeg
+     <h2>Hi, I'm Joey.</h2>
+     <h3>I promote security awareness and analyze security incidents in the cryptocurrency space.</h3>
+     <p>Featured guides:
+        <a href="/">Coin Storage Safety Guide</a>,
+        <a href="/">Learn the Lingo (What's a Seed?)</a>,
+        <a href="/">Scams to Watch For</a>.
+        <a href="/">More >></a></p>
+  header_text_feature_image: assets/img/navy-code.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
