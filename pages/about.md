@@ -25,9 +25,10 @@ Because I genuinely want to create a valuable resource for the community, my
 content will be open-source and I will not accept donations. Trying to monetize
 content introduces a fundamental conflict of interest that is already rampant
 in the cryptocurrency space, so I will avoid doing so. Becoming a valuable
-resource in a growing community is its own reward, and a lot to ask in its own
-right. If you want to support me: please follow me, be critical of me, and help
-me grow to become that resource.
+resource in a growing community is its own reward, and a lot to ask for in its
+own right. If you want to support me: please [follow
+me](https://twitter.com/joey_rideout), be critical of me, and help me grow to
+become that resource.
 
 Stay safe out there.
 
