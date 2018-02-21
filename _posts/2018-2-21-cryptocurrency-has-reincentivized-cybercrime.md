@@ -11,58 +11,66 @@ can be cancelled or replaced. You lose time cancelling and replacing them,
 sure, and you'll have to spend some money replacing some of the cards along
 with your fancy RFID-blocking bifold, but your life is far from ruined. No
 wonder the average user is apathetic about security: on the web, their wallets
-are empty. Some data, but no cash. Privacy is a concern, of course, but more
-people care about money. Or rather, people are directly incentivized to care
-about money. Since money was not directly involved in this empty wallet of data,
-people were not directly incentivized to protect it. I am speculating, but
-"lack of incentive" encapsulates the average user response to security
-initiatives pretty well. At the very least, users who aren't privacy-centric
-<i>act</i> as if they have no compelling incentive to participate in proactive
-security measures.
+are empty. Some data, but no cash.
 
-So, if this "empty wallet" scenario has been the norm in cybercrime until
-recently, then perhaps people have been appropriately apathetic. If
-breaches are so common, and stolen data has no tangible impact on your life
-outside of the vague risk of identity theft, why bother spending time on a good
-password? Just keep an eye on your credit card statement and move on. This
-sentiment is familiar to many Information Security professionals who aim to
-promote security among end users.  Security awareness feels forced; we have to
-talk people into caring about the risks, which often ends up sounding a lot
-like scare-mongering. "Password reuse is incredibly risky", we say. "Hackers
-are out to get you", we say. Why is it so hard to get people to listen? If I'm
-honest, maybe it's because following security advice often takes more effort
-than it's worth. The only impact I see from a lack of security awareness in my
-friend group is the occasional Facebook post saying, "my account got hacked, don't
-open messages you got from me". What's the big deal?
+Privacy is a concern, of course, but more people care about money. Or rather,
+people are directly incentivized to care about money. Since money was not
+directly involved in this proverbial empty wallet of personal data, people were
+not directly incentivized to protect it. I am speculating on user motives here,
+but "lack of incentive" encapsulates the average user response to security
+initiatives pretty well. At the very least, users who aren't privacy-centric
+<i>act</i> as if they have no compelling incentive to be proactive with
+security.
+
+Users are easier to understand if you look at bad security habits as an
+incentive issue. If breaches are so common, and stolen data has no tangible
+impact on your life outside of the vague risk of identity theft, why bother
+spending time on a good password? Just keep an eye on your credit card
+statement and move on. This sentiment is familiar to many Information Security
+professionals who aim to promote security among end users. Security awareness
+feels forced; we have to talk people into caring about the risks, which often
+ends up sounding a lot like scare-mongering. "Password reuse is incredibly
+risky", we say. "Hackers are out to get you", we say. Why is it so hard to get
+people to listen? If I'm honest, maybe it's because following security advice
+often takes more effort than it's worth. The only impact I see from a lack of
+security awareness in my friend group is the occasional Facebook post saying,
+"my account got hacked, don't open messages you got from me". So what's the big
+deal?
 
 Herein lies some cognitive dissonance: there is a large disconnect between
 Information Security professionals and the average user about the importance of
-security. This disconnect continues into the workplace, where data breaches
-are a more realistic threat but users remain apathetic. What's missing? Maybe
-users simply don't value their data enough to protect it. Maybe when the trite
-response of "I have nothing to hide" is rolled out, what a user really means is
-"if I lose this data it won't cost me very much". Instead of rolling out yet
-another refutation by counterexample of the "I have nothing to hide" argument
-taken literally, maybe the Information Security industry should simply listen
-to the users: they are telling us that their personal data isn't very valuable.
-And, if I'm honest, there is truth in that message. All they have is an empty
-wallet. A recent behavioural shift in cybercrime tells me that criminals agree
-with this valuation, too.
+security. This disconnect continues into the workplace. Data breaches and
+compliance are realistic concerns for corporate executives, so they are
+incentivized to budget for security to reduce the risk. Most corporate security
+awareness initiatives simply try to align the incentives of employees with the
+incentives of those executives. Outside of those programs, users remain
+apathetic. What's missing?  Maybe users just don't value their own data
+enough to protect it. Maybe when the trite response of "I have nothing to hide"
+is rolled out, what a user really means is "if I lose this data it won't cost
+me very much". Instead of rolling out yet another refutation by counterexample
+of the "I have nothing to hide" argument taken at face value, maybe the
+Information Security industry should simply listen to the users: they are
+telling us that their personal data isn't very valuable. And, if I'm honest,
+there is truth in that message. All they have is an empty wallet. A recent
+behavioural shift in cybercrime tells me that criminals agree with this
+valuation, too.
 
-In economic terms, the currency of stolen user data in general has experienced
-high inflation in the last decade. Criminals can only make so much money
-stealing information from empty wallets. An oversupply has driven down the
-marginal cost of leaked records and login information on the dark web. End
-users may have grown even more apathetic to future breaches because they
-figure that their data is already out there. This apathy has caused security
-professionals to grow increasingly frustrated as the perceived value of
-security solutions decrease. Stolen data has dropped in value from both the
-supply side and the demand side.
+In economic terms, the currency of stolen user data has experienced high
+inflation in the decade prior to cryptocurrency becoming popular. Criminals can
+only make so much money stealing information from empty wallets. An oversupply
+has driven down the marginal cost of leaked records and login information on
+the dark web. End users may have grown even more apathetic to future breaches
+because they figure that their data is already out there. This apathy has
+caused security professionals to grow increasingly frustrated as the perceived
+value of security solutions decrease. Stolen data has dropped in value from
+both the supply side and the demand side.
 
 <b>This trend is about to reverse completely, for one reason: digital currency is
-worth more than personally identifiable information. Information Security
-professionals are in the business of protecting digital assets, and digital
-money has just been invented. Let that sink in for a moment.</b>
+worth more than personally identifiable information.</b>
+
+Information Security professionals are in the business of protecting digital
+assets, and digital money has just been invented. Let that sink in for a
+moment.
 
 The game has changed. Now there is cash for our proverbial mugger to steal.
 Tangible loss of scarce, irreplaceable digital assets is now a real risk for
