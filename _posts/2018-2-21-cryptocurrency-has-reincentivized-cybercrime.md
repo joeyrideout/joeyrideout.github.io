@@ -10,7 +10,7 @@ emotional harm has been done, is it the end of the world? Each of these items
 can be cancelled or replaced. You lose time cancelling and replacing them,
 sure, and you'll have to spend some money replacing some of the cards along
 with your fancy RFID-blocking bifold, but your life is far from ruined. No
-wonder the average user is apathetic about security. On the web, their wallets
+wonder the average user is apathetic about security: on the web, their wallets
 are empty. Some data, but no cash.
 
 This "empty wallet" scenario has been the norm in cybercrime until recently, and
