@@ -14,10 +14,10 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <h2>Hi, I'm Joey.</h2>
-     <h3>I promote security awareness and analyze security incidents in the cryptocurrency space.</h3>
+     <h3>I promote security awareness and research security incidents in the cryptocurrency space.</h3>
      <p>Featured guides:
         <a href="/">Coin Storage Safety Guide</a>,
-        <a href="/">Learn the Lingo (What's a Seed?)</a>,
+        <a href="/">What are Seeds and Keys?</a>,
         <a href="/">Scams to Watch For</a>.
         <a href="/">More >></a></p>
   header_text_feature_image: assets/img/navy-code.jpg
@@ -53,7 +53,7 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false # true
   search: true
   tags: true
   
@@ -83,6 +83,9 @@ paginate_path: "blog/page:num"
 # PORTFOLIO
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:name
+  guides:
     output: true
     permalink: /:collection/:name
 
