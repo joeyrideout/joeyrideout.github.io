@@ -1,11 +1,12 @@
 // Typography
 $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
+$font-size: 1.5em;
+$line-height: 1.2em;
 
 
 // Padding
-$padding-large: 20%;
+$padding-large: 25%;
 $padding-small: 5%;
 $padding-x-small: 3%;
 
@@ -32,12 +33,12 @@ $header-link-color: #383838;
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 // Header description box
-$header-desc-background-color: #507492;
+$header-desc-background-color: #1d2e3b;
 $header-desc-text-color: #FFF;
 
 // Mobile display
 $break: 768px;
-$sm-break: 450px;
+$sm-break: 532px;
 
 
 /*  Syntax highlighting  */
