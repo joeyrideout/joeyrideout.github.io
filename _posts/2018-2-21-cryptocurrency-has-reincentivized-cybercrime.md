@@ -1,91 +1,124 @@
 ---
 layout: post
-title: Cryptocurrency has Reincentivized Cybercrime
+title: Cryptocurrency has Reincentivized Information Security
 tags: [Industry Insight, Macroeconomic Trends]
 ---
-Think about getting mugged on the sidewalk with only an empty wallet on your
-person, which the mugger simply takes and runs away with. No cash. Your credit
-cards, ID, and loyalty cards get stolen. Assuming that no physical or lasting
-emotional harm has been done, is it the end of the world? Each of these items
-can be cancelled or replaced. You lose time cancelling and replacing them,
-sure, and you'll have to spend some money replacing some of the cards along
-with your fancy RFID-blocking bifold, but your life is far from ruined. No
-wonder the average user is apathetic about security: on the web, their wallets
-are empty. Some data, but no cash.
+Think about getting pickpocketed on the sidewalk but only losing an empty
+wallet. No cash. Your credit cards, ID, and loyalty cards get stolen.  Is it
+the end of the world? Each of these items can be cancelled or replaced. You
+spend time cancelling and replacing them, sure, and you'll have to spend some
+money replacing some of the cards along with your fancy RFID-blocking bifold,
+but your life is far from ruined. Information Security folks spend a lot of
+time trying to get people to care about their online security, but no wonder
+the average user is apathetic: on the web, their wallets are empty. Some data,
+but no cash.
 
 Privacy is a concern, of course, but more people care about money. Or rather,
-people are directly incentivized to care about money. Since money was not
-directly involved in this proverbial empty wallet of personal data, people were
-not directly incentivized to protect it. I am speculating on user motives here,
-but "lack of incentive" encapsulates the average user response to security
-initiatives pretty well. At the very least, users who aren't privacy-centric
-<i>act</i> as if they have no compelling incentive to be proactive with
-security.
+people are directly incentivized to care about money. If I'm being honest,
+"lack of incentive" encapsulates the average user response to security
+initiatives pretty well. This sentiment is familiar to many Information
+Security professionals who aim to promote security among end users. Security
+awareness feels forced; we have to talk people into caring about the risks,
+which often ends up sounding a lot like scare-mongering. "Hackers are out to
+get you", we say. Why is it so hard to get people to listen? 
 
-Users are easier to understand if you look at bad security habits as an
-incentive issue. If breaches are so common, and stolen data has no tangible
-impact on your life outside of the vague risk of identity theft, why bother
-spending time on a good password? Just keep an eye on your credit card
-statement and move on. This sentiment is familiar to many Information Security
-professionals who aim to promote security among end users. Security awareness
-feels forced; we have to talk people into caring about the risks, which often
-ends up sounding a lot like scare-mongering. "Password reuse is incredibly
-risky", we say. "Hackers are out to get you", we say. Why is it so hard to get
-people to listen? If I'm honest, maybe it's because following security advice
-often takes more effort than it's worth. The only impact I see from a lack of
-security awareness in my friend group is the occasional Facebook post saying,
-"my account got hacked, don't open messages you got from me". So what's the big
-deal?
+Maybe it's because following security advice often takes more effort than it's
+worth.
 
-Herein lies some cognitive dissonance: there is a large disconnect between
-Information Security professionals and the average user about the importance of
-security. This disconnect continues into the workplace. Data breaches and
-compliance are realistic concerns for corporate executives, so they are
-incentivized to budget for security to reduce the risk. Most corporate security
-awareness initiatives simply try to align the incentives of employees with the
-incentives of those executives. Outside of those programs, users remain
-apathetic. What's missing?  Maybe users just don't value their own data
-enough to protect it. Maybe when the trite response of "I have nothing to hide"
-is rolled out, what a user really means is "if I lose this data it won't cost
-me very much". Instead of rolling out yet another refutation by counterexample
-of the "I have nothing to hide" argument taken at face value, maybe the
-Information Security industry should simply listen to the users: they are
-telling us that their personal data isn't very valuable. And, if I'm honest,
-there is truth in that message. All they have is an empty wallet. A recent
-behavioural shift in cybercrime tells me that criminals agree with this
-valuation, too.
+A pack of stolen credit card numbers goes for upwards of [$30 on the dark
+web](https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx). Last time
+I checked, I can spend way more than thirty bucks with my credit card. [People
+spend more money on RFID-blocking
+wallets](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=rfid+wallet).
+Why is
+stolen credit so undervalued? In short, stolen credit is hard to use. Fraud
+detection and alerting systems are watching credit card accounts for suspicious
+activity, and the card can be frozen at the first sign of trouble. These
+security measures directly mitigate financial risk for the consumer. As a
+result, the end consumer feels safe and doesn't feel incentivized to spend time
+and effort being extra careful when online shopping.
 
-In economic terms, the currency of stolen user data has experienced high
-inflation in the decade prior to cryptocurrency becoming popular. Criminals can
-only make so much money stealing information from empty wallets. An oversupply
-has driven down the marginal cost of leaked records and login information on
-the dark web. End users may have grown even more apathetic to future breaches
-because they figure that their data is already out there. This apathy has
-caused security professionals to grow increasingly frustrated as the perceived
-value of security solutions decrease. Stolen data has dropped in value from
-both the supply side and the demand side.
+Bank accounts have a similar markdown; [$2200 accounts are sold for
+$190](https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx). Bundle
+that with a stolen credit card and a user's most precious digital accounts are
+worth a <i>tenth</i> of the price of a [decade-old Honda Civic with 200000
+kms](http://www.autotrader.ca/valuations/#?make=2000358&model=2044205&year=3513244&km=200000&local=N2J2K3&trim=3873406&mode=3&condition=0).
+To quote my college buddy who recently parked such a car in a run-down
+neighbourhood, "who would steal that?"
 
-<b>This trend is about to reverse completely, for one reason: digital currency is
-worth more than personally identifiable information.</b>
+Maybe when the trite response of "I have nothing to hide" is rolled out, what a
+user really means is "if I lose this data, it won't cost me very much". Instead
+of rolling out yet another refutation by counterexample of the "I have nothing
+to hide" argument taken at face value (<i>yawn</i>), maybe the Information
+Security industry should simply listen to the users: they are telling us that
+their personal data isn't very valuable. And, if I'm honest, there is truth in
+that message. All they have is an empty wallet. No cash. The black market for
+stolen data tells us the value: a few bucks per credit card number. Big whoop.
+Breach after breach, more and more of this data floods the black market. Users
+who assume that their data is already out there will value their data even
+less, and criminals will make less money by selling it. The former is what the
+Information Security industry has started calling ["breach
+fatigue"](https://sector.ca/why-we-must-fight-breach-fatigue/). I call it
+economics. An increasing supply of data breaches keeps lowering the unit cost
+of stolen user data on both the supply side and the demand side.
+
+<b>This trend is about to reverse completely, for one reason: digital currency
+is worth far more than personally identifiable information and stolen credit
+card numbers.</b>
 
 Information Security professionals are in the business of protecting digital
 assets, and digital money has just been invented. Let that sink in for a
 moment.
 
-The game has changed. Now there is cash for our proverbial mugger to steal.
-Tangible loss of scarce, irreplaceable digital assets is now a real risk for
-individual users. Fraud detection systems do not yet exist to monitor these
-transactions; consumers are not protected, and criminals are not hindered. Gone
-are the days of selling batches of thousands of stolen credit card numbers for
-pennies on the dollar because they are so hard to actually use; digital coins
-are easy to launder thanks to unregulated (and soon, decentralized) exchanges
-and privacy-centric coins like Monero. Cryptocurrency-funded ransomware is
-already the norm. Viruses are now more profitable because the host machine's
-computing resources can mine cryptocurrency instead of only being used as a
-network resource for wholesale DDoS attacks. Phishing scams that used to walk
-users through convoluted Best Buy gift card purchases now have a frictionless
-method for being sent money. See a trend? The incentive structure for cybercrime is
-changing, and it's changing quickly.
+The game has changed. Now there is cash for our proverbial pickpocket to
+pilfer. Scarcity now exists in the world of stolen data. Cryptocurrency is
+a deflationary asset in the black market, too.
+
+Tangible loss of irreplaceable digital assets is now a real risk for individual
+users. As a result, apathy for security in the cryptocurrency community is
+practically nonexistent. Everyone with a digital wallet seems appropriately
+concerned about keeping it safe. Message boards pass around security advice to
+new users because it is essential, and many people have learned the hard way
+already. This scenario is a novelty for Information Security professionals: the
+average user genuinely cares about their security now. For the first time,
+security awareness is seeing an <i>organic growth in demand from end users</i>.
+This rise in demand makes sense, since more than just a few dollars of personal
+information is at stake. <b>I have yet to hear anybody say "I have nothing to
+hide" when discussing the security of their cryptocurrency wallet.</b> This
+organic demand for security awareness will only increase with adoption.
+
+Anecdotally, I have already had friends seek my advice regarding the security
+of digital currency that they own or hope to buy. Never in my entire life have
+my friends proactively asked me for security advice in a non-professional
+setting before cryptocurrency entered the scene. (Probably because their $2000
+used Civic is worth ten times more than their financial accounts on the dark
+web.)
+
+Consumers are exposed to this additional risk, and the baddies smell
+opportunity. Fraud detection systems do not yet exist to monitor these
+transactions, so criminals are not hindered. Gone are the days of selling
+batches of thousands of stolen credit card numbers for pennies on the dollar
+because they are so hard to actually use; digital coins are easy to launder
+thanks to
+[unregulated](https://www.forbes.com/sites/rogeraitken/2018/02/15/u-s-cftc-commissioner-says-cryptocurrency-exchanges-adopting-self-regulation-could-spur-standards/#7a18509645e1)
+(or completely
+[decentralized](https://coinsutra.com/best-decentralized-exchanges-dex/))
+exchanges as well as [privacy-centric
+coins](https://www.bitcoinbeginner.com/blog/privacy-coin-comparison/) like
+Monero. [Cryptocurrency-funded
+ransomware](https://www.us-cert.gov/ncas/alerts/TA14-295A) is already the norm.
+Viruses are now [more
+profitable](https://antivirus.comodo.com/blog/comodo-news/detect-remove-bitcoin-miner-virus/)
+because the host machine's computing resources can mine cryptocurrency instead
+of only being used as a network resource for wholesale DDoS attacks. Phishing
+scams that used to walk users through [convoluted Best Buy gift card
+purchases](https://corporate.bestbuy.com/best-buy-warns-gift-card-scam/) now
+have a frictionless method for being [sent
+money](https://www.coindesk.com/copycat-twitter-accounts-seek-to-scam-crypto-users/).
+Traders who likely have significant holdings may be hit with [targeted
+attacks](https://twitter.com/PhilakoneCrypto/status/967224205438865409)\*. See
+a trend? The incentive structure for cybercrime is changing, and it's changing
+quickly.
 
 Thanks to cryptocurrencies, the stakes for falling victim to cybercrime have
 increased dramatically for end users: fail to protect your wallet, and thieves
@@ -94,24 +127,15 @@ through a privacy coin. Game over. There is no number you can call to cancel
 the transaction that emptied your wallet, and no authority you can call to
 replace the stolen goods.
 
-As a result, apathy for security in the cryptocurrency community is practically
-nonexistent. Everyone with a digital wallet seems appropriately concerned about
-keeping it safe. This scenario is a novelty for Information Security
-professionals: the average user genuinely cares about their security now. Why?
-Because, for the first time, their money is directly on the line; their wallets
-are no longer empty. For the first time, security awareness is seeing an
-<i>organic growth in demand from end users</i>. This rise in demand makes
-sense, since more than just personally identifiable information is at stake.
-<b>I have yet to hear someone say "I have nothing to hide" when discussing the
-security of their cryptocurrency wallet.</b> This organic demand for security
-awareness will only increase with adoption. Anecdotally, I have already had
-friends seek my advice regarding the security of digital currency that they own
-or hope to buy. Never in my entire life have my friends proactively asked me
-for security advice in a non-professional setting before cryptocurrency
-enterred the scene. 
-
 We shouldn't underestimate the impact of this paradigm shift on the Information
-Security industry. The internet is often referred to as a Wild West by security
-professionals, but it was missing something: digital bank robberies. Butch
-Cassidy. Now that there is digital cash to steal, we are truly in a Wild
-West. The incentives have made it so.
+Security industry as cryptocurrency adoption continues. The internet is often
+referred to as a Wild West by security professionals, but it was missing
+something: [digital bank
+robberies](http://storeofvalueblog.com/posts/cryptocurrency-hacks-so-far-august-24th/).
+The likes of Butch Cassidy. Now that there is digital cash to steal, we are
+truly in a Wild West. The incentives have made it so.
+
+----
+
+\* I am speculating on the targeted nature of the linked incident. Targeted
+attack or not, prolific traders should see this incident as a cautionary tale.
