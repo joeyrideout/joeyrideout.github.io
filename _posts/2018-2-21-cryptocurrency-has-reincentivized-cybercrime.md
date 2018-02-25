@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cryptocurrency has Reincentivized Information Security
+# feature-img: "assets/img/pexels/desk-messy.jpeg"
 tags: [Industry Insight, Macroeconomic Trends]
 ---
 Think about getting pickpocketed on the sidewalk but only losing an "empty"
