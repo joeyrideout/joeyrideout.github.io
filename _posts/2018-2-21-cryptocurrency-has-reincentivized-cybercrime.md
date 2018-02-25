@@ -3,9 +3,9 @@ layout: post
 title: Cryptocurrency has Reincentivized Information Security
 tags: [Industry Insight, Macroeconomic Trends]
 ---
-Think about getting pickpocketed on the sidewalk but only losing an empty
-wallet. No cash. Your credit cards, ID, and loyalty cards get stolen.  Is it
-the end of the world? Each of these items can be cancelled or replaced. You
+Think about getting pickpocketed on the sidewalk but only losing an "empty"
+wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen.  Is
+it the end of the world? Each of these items can be cancelled or replaced. You
 spend time cancelling and replacing them, sure, and you'll have to spend some
 money replacing some of the cards along with your fancy RFID-blocking bifold,
 but your life is far from ruined. Information Security folks spend a lot of
@@ -25,20 +25,19 @@ get you", we say. Why is it so hard to get people to listen?
 Maybe it's because following security advice often takes more effort than it's
 worth.
 
-A pack of stolen credit card numbers goes for upwards of [$30 on the dark
+Stolen credit card numbers go for only [$30 on the dark
 web](https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx). Last time
 I checked, I can spend way more than thirty bucks with my credit card. [People
 spend more money on RFID-blocking
 wallets](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=rfid+wallet).
-Why is
-stolen credit so undervalued? In short, stolen credit is hard to use. Fraud
-detection and alerting systems are watching credit card accounts for suspicious
-activity, and the card can be frozen at the first sign of trouble. These
-security measures directly mitigate financial risk for the consumer. As a
-result, the end consumer feels safe and doesn't feel incentivized to spend time
-and effort being extra careful when online shopping.
+Why is stolen credit so inexpensive? In short, stolen credit is hard to use.
+Fraud detection and alerting systems are watching credit card accounts for
+suspicious activity, and the card can be frozen at the first sign of trouble.
+These security measures directly mitigate a lot of financial risk for the
+consumer. As a result, the end consumer feels safe and isn't incentivized to
+spend time and effort being extra careful when online shopping.
 
-Bank accounts have a similar markdown; [$2200 accounts are sold for
+Bank accounts have a similar markdown: [$2200 accounts are sold for
 $190](https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx). Bundle
 that with a stolen credit card and a user's most precious digital accounts are
 worth a <i>tenth</i> of the price of a [decade-old Honda Civic with 200000
@@ -48,7 +47,7 @@ neighbourhood, "who would steal that?"
 
 Maybe when the trite response of "I have nothing to hide" is rolled out, what a
 user really means is "if I lose this data, it won't cost me very much". Instead
-of rolling out yet another refutation by counterexample of the "I have nothing
+of producing yet another refutation by counterexample of the "I have nothing
 to hide" argument taken at face value (<i>yawn</i>), maybe the Information
 Security industry should simply listen to the users: they are telling us that
 their personal data isn't very valuable. And, if I'm honest, there is truth in
@@ -60,7 +59,7 @@ less, and criminals will make less money by selling it. The former is what the
 Information Security industry has started calling ["breach
 fatigue"](https://sector.ca/why-we-must-fight-breach-fatigue/). I call it
 economics. An increasing supply of data breaches keeps lowering the unit cost
-of stolen user data on both the supply side and the demand side.
+of stolen user data on both the supply side and the demand side of the market.
 
 <b>This trend is about to reverse completely, for one reason: digital currency
 is worth far more than personally identifiable information and stolen credit
@@ -78,14 +77,15 @@ Tangible loss of irreplaceable digital assets is now a real risk for individual
 users. As a result, apathy for security in the cryptocurrency community is
 practically nonexistent. Everyone with a digital wallet seems appropriately
 concerned about keeping it safe. Message boards pass around security advice to
-new users because it is essential, and many people have learned the hard way
-already. This scenario is a novelty for Information Security professionals: the
-average user genuinely cares about their security now. For the first time,
-security awareness is seeing an <i>organic growth in demand from end users</i>.
-This rise in demand makes sense, since more than just a few dollars of personal
-information is at stake. <b>I have yet to hear anybody say "I have nothing to
-hide" when discussing the security of their cryptocurrency wallet.</b> This
-organic demand for security awareness will only increase with adoption.
+new users because it is essential, and many people have learned those lessons
+the hard way already. This scenario is a novelty for Information Security
+professionals: the average user genuinely cares about their security now. For
+the first time, security awareness is seeing an <i>organic growth in demand
+from end users</i>.  This rise in demand makes sense, since more than just a
+few dollars worth of personal information is at stake. <b>I have yet to hear
+anybody say "I have nothing to hide" when discussing the security of their
+cryptocurrency wallet.</b> This organic demand for security awareness will only
+increase with adoption.
 
 Anecdotally, I have already had friends seek my advice regarding the security
 of digital currency that they own or hope to buy. Never in my entire life have
@@ -107,15 +107,15 @@ exchanges as well as [privacy-centric
 coins](https://www.bitcoinbeginner.com/blog/privacy-coin-comparison/) like
 Monero. [Cryptocurrency-funded
 ransomware](https://www.us-cert.gov/ncas/alerts/TA14-295A) is already the norm.
-Viruses are now [more
-profitable](https://antivirus.comodo.com/blog/comodo-news/detect-remove-bitcoin-miner-virus/)
-because the host machine's computing resources can mine cryptocurrency instead
-of only being used as a network resource for wholesale DDoS attacks. Phishing
-scams that used to walk users through [convoluted Best Buy gift card
+[Viruses](https://antivirus.comodo.com/blog/comodo-news/detect-remove-bitcoin-miner-virus/)
+are now more profitable because the host machine's computing resources can mine
+cryptocurrency instead of only being used as a network resource for wholesale
+DDoS attacks. [Phishing
+scams](https://www.coindesk.com/copycat-twitter-accounts-seek-to-scam-crypto-users/)
+that used to walk users through [convoluted Best Buy gift card
 purchases](https://corporate.bestbuy.com/best-buy-warns-gift-card-scam/) now
-have a frictionless method for being [sent
-money](https://www.coindesk.com/copycat-twitter-accounts-seek-to-scam-crypto-users/).
-Traders who likely have significant holdings may be hit with [targeted
+have a frictionless method for being sent money.  Traders who likely have
+significant holdings may be hit with [targeted
 attacks](https://twitter.com/PhilakoneCrypto/status/967224205438865409)\*. See
 a trend? The incentive structure for cybercrime is changing, and it's changing
 quickly.
@@ -137,5 +137,5 @@ truly in a Wild West. The incentives have made it so.
 
 ----
 
-\* I am speculating on the targeted nature of the linked incident. Targeted
-attack or not, prolific traders should see this incident as a cautionary tale.
+<span class="footnote">\*I am speculating on the targeted nature of the linked incident. Targeted
+attack or not, prolific traders should see this incident as a cautionary tale.</span>
