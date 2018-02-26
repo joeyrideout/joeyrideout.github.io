@@ -4,8 +4,9 @@ title: Cryptocurrency has Reincentivized Information Security
 # feature-img: "assets/img/pexels/desk-messy.jpeg"
 tags: [Industry Insight, Macroeconomic Trends]
 ---
+
 Think about getting pickpocketed on the sidewalk but only losing an "empty"
-wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen.  Is
+wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Is
 it the end of the world? Each of these items can be cancelled or replaced. You
 spend time cancelling and replacing them, sure, and you'll have to spend some
 money replacing some of the cards along with your fancy RFID-blocking bifold,
@@ -35,8 +36,8 @@ Why is stolen credit so inexpensive? In short, stolen credit is hard to use.
 Fraud detection and alerting systems are watching credit card accounts for
 suspicious activity, and the card can be frozen at the first sign of trouble.
 These security measures directly mitigate a lot of financial risk for the
-consumer. As a result, the end consumer feels safe and isn't incentivized to
-spend time and effort being extra careful when online shopping.
+consumer. As a result, the end consumer feels relatively safe and isn't
+incentivized to spend time and effort being extra careful when online shopping.
 
 Bank accounts have a similar markdown: [$2200 accounts are sold for
 $190](https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx). Bundle
@@ -63,8 +64,8 @@ economics. An increasing supply of data breaches keeps lowering the unit cost
 of stolen user data on both the supply side and the demand side of the market.
 
 <b>This trend is about to reverse completely, for one reason: digital currency
-is worth far more than personally identifiable information and stolen credit
-card numbers.</b>
+is worth far more than personally identifiable information and financial
+account log-ins. A $2200 digital currency wallet is worth $2200.</b>
 
 Information Security professionals are in the business of protecting digital
 assets, and digital money has just been invented. Let that sink in for a
@@ -78,13 +79,13 @@ Tangible loss of irreplaceable digital assets is now a real risk for individual
 users. As a result, apathy for security in the cryptocurrency community is
 practically nonexistent. Everyone with a digital wallet seems appropriately
 concerned about keeping it safe. Message boards pass around security advice to
-new users because it is essential, and many people have learned those lessons
-the hard way already. This scenario is a novelty for Information Security
-professionals: the average user genuinely cares about their security now. For
-the first time, security awareness is seeing an <i>organic growth in demand
-from end users</i>.  This rise in demand makes sense, since more than just a
-few dollars worth of personal information is at stake. <b>I have yet to hear
-anybody say "I have nothing to hide" when discussing the security of their
+new users because it is essential, and too many people have learned those
+lessons the hard way already. This scenario is a novelty for Information
+Security professionals: the average user genuinely cares about their security
+now. For the first time, security awareness is seeing an <i>organic growth in
+demand from end users</i>. This rise in demand makes sense, since more than
+just a few dollars worth of personal information is at stake. <b>I have yet to
+hear anybody say "I have nothing to hide" when discussing the security of their
 cryptocurrency wallet.</b> This organic demand for security awareness will only
 increase with adoption.
 
@@ -95,12 +96,11 @@ setting before cryptocurrency entered the scene. (Probably because their $2000
 used Civic is worth ten times more than their financial accounts on the dark
 web.)
 
-Consumers are exposed to this additional risk, and the baddies smell
-opportunity. Fraud detection systems do not yet exist to monitor these
-transactions, so criminals are not hindered. Gone are the days of selling
-batches of thousands of stolen credit card numbers for pennies on the dollar
-because they are so hard to actually use; digital coins are easy to launder
-thanks to
+Consumers are exposed, and the baddies smell opportunity. Fraud detection
+systems do not yet exist to monitor cryptocurrency transactions, so criminals
+are not hindered. Gone are the days of selling batches of thousands of stolen
+credit card numbers for pennies on the dollar because they are so hard to
+actually use; digital coins are now easy to launder thanks to
 [unregulated](https://www.forbes.com/sites/rogeraitken/2018/02/15/u-s-cftc-commissioner-says-cryptocurrency-exchanges-adopting-self-regulation-could-spur-standards/#7a18509645e1)
 (or completely
 [decentralized](https://coinsutra.com/best-decentralized-exchanges-dex/))
@@ -133,8 +133,8 @@ Security industry as cryptocurrency adoption continues. The internet is often
 referred to as a Wild West by security professionals, but it was missing
 something: [digital bank
 robberies](http://storeofvalueblog.com/posts/cryptocurrency-hacks-so-far-august-24th/).
-The likes of Butch Cassidy. Now that there is digital cash to steal, we are
-truly in a Wild West. The incentives have made it so.
+Now that there is digital cash to steal, we are truly in a Wild West. The
+incentives have made it so.
 
 ----
 
