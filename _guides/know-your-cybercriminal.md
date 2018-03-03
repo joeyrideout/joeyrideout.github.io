@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Know Your Cybercriminal: How Hackers Operate"
+title: "Password Guide: Security and Convenience"
 img: "assets/img/portfolio/ninja.png"
 feature-img: "assets/img/portfolio/ninja.png"
 date: February 26 2018

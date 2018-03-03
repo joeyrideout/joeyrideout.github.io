@@ -19,6 +19,10 @@ article {
     }
 }
 
+.horizontal-line {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
 .footnote {
     color: rgba($text-color, .7);
     font-size: 0.7em;

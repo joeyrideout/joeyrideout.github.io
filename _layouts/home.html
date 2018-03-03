@@ -9,16 +9,15 @@ layout: default
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}
-  <div class="text-center">
-      <h1>Cryptocurrency Security Guides</h1>
   </div>
 
   {% include guides.html %}
 
 <section>
-<div class="row">
+<div class="row horizontal-line">
   <div class="posts">
     <h1 class="text-center">Blog</h1>
+    <p class="text-center">Insight into security incidents and trends in the cryptocurrency space, new guides, and more.</p>
     {% for post in paginator.posts %}
     <div class="post-teaser">
       {% if post.thumbnail %} 

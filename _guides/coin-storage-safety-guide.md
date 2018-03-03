@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coin Storage Safety Guide
+title: "Coin Storage Safety Guide: Where to Keep Your Coins"
 feature-img: "assets/img/portfolio/safe.png"
 img: "assets/img/portfolio/safe.png"
 date: February 24 2018

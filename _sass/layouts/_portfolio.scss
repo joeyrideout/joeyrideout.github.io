@@ -1,6 +1,11 @@
 .bootstrap-iso {
     text-align: center;
 }
+.guide-context {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2em;
+}
 .portfolio * {
     display: inline-block;
     z-index: 2;
@@ -11,7 +16,7 @@
 
     .portfolio-item {
         right: 0;
-        margin: 0 0 15px;
+        margin-bottom: 15px;
 
         @media(min-width: 767px) {
             margin: 0 0 30px;
@@ -21,7 +26,8 @@
             display: block;
             position: relative;
             margin: 0 auto;
-            max-width: 400px;
+            max-width: 314px;
+            max-height: 226px;
 
             .caption {
                 margin: 0;
@@ -41,12 +47,12 @@
                     text-shadow: 0px 0px 4px rgb(29,46,59);
                 }
                 .caption-content {
-                    &::before {
-                        content: '';
-                        display: inline-block;
-                        vertical-align: middle;
-                        height: 100%;
-                    }
+                    // &::before {
+                    //     content: '';
+                    //     display: inline-block;
+                    //     vertical-align: middle;
+                    //     height: 100%;
+                    // }
                     text-shadow: 0px 0px 2px #000000;
                     text-transform: uppercase;
                     color: #fff;
@@ -86,6 +92,7 @@
     .portfolio {
         .caption-content {
             p {
+            margin-top: 2vh;
             font-size: 34px;
             }
         }
@@ -96,7 +103,8 @@
     .portfolio {
         .caption-content {
             p {
-            font-size: 36px;
+            margin-top: 3vh;
+            font-size: 32px;
             }
         }
     }
@@ -107,6 +115,7 @@
     .portfolio {
         .caption-content {
             p {
+            margin-top: 2vh;
             font-size: 32px;
             }
         }
@@ -116,6 +125,7 @@
     .portfolio {
         .caption-content {
             p {
+            margin-top: 4vh;
             font-size: 22px;
             }
         }
@@ -127,6 +137,7 @@
         .caption-content {
             p {
             font-size: 24px;
+            margin-top: 6vh;
             }
         }
     }
