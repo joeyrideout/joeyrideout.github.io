@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diving Right In: Introductory Concepts and Terms"
+title: "Introductory Concepts and Terms"
 feature-img: "assets/img/portfolio/submarine.png"
 img: "assets/img/portfolio/submarine.png"
 feature-img: "assets/img/portfolio/submarine.png"

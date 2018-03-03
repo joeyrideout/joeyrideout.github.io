@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing Coins: Deposits, Withdrawls, and Transfer Anxiety"
+title: "How to Safely Transfer, Deposit, and Withdraw"
 img: "assets/img/portfolio/toh.png"
 feature-img: "assets/img/portfolio/toh.png"
 date: February 26 2018

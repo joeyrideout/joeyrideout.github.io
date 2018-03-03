@@ -4,7 +4,7 @@
     
     <!-- JQuery (used for bootstrap and jekyll search) -->
     <script src="{{ site.baseurl }}/assets/js/jquery-3.2.1.min.js" ></script>
-    
+
     <!-- Main JS (navbar.js and katex_init.js)-->
     <script defer=true src="{{ site.baseurl }}/assets/js/main.min.js"></script>
     
@@ -28,6 +28,13 @@
     {% if site.theme_settings.google_fonts %}
     <link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css"> 
     {% endif %}
+
+    <!-- Bootstrap-3.3.7 isolation CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/bootstrap-iso.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+
 
     <!-- KaTeX 0.8.3 -->
     {% if site.theme_settings.katex %}

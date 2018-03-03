@@ -1,13 +1,16 @@
 <!-- Portfolio Grid Section -->
+    <section>
+        <div class="bootstrap-iso">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 centered">
 <section class="portfolio">
     <div class="row">
         {% for item in site.guides %}
-        <div class="col-sm-4 portfolio-item">
+        <div class="col-xl-1 col-lg-3 col-md-6 portfolio-item">
             <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
                 <div class="caption" title="{{ item.title }}">
                     <div class="caption-content">
-                        <!--i class="fa fa-search-plus fa-3x"></i-->
-			<p>{{ item.title }}</p>
+                        <p>{{ item.title }}</p>
                     </div>
                 </div>
                 <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
@@ -16,3 +19,7 @@
         {% endfor %}
     </div>
 </section>
+            </div>    
+            <div class="col-md-1"></div>
+        </div>
+    </section>

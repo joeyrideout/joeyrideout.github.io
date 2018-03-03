@@ -84,7 +84,7 @@ header {
 
 // Responsive scrolling
 .feature-image header {
-    @media screen and (max-width: $break) {
+    @media screen and (max-width: $sm-break) {
         padding: $padding-small $padding-small;
     }
 }

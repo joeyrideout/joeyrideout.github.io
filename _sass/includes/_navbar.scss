@@ -79,13 +79,13 @@
 
 /* ---- Responsive ---- */
 
-@media (min-width: $break) {
+@media (min-width: $sm-break) {
     a#pull {
         display: none;
     }
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $sm-break) {
     .site-header {
         img.avatar {
             margin-top: -7px

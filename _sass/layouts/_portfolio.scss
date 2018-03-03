@@ -1,6 +1,9 @@
+.bootstrap-iso {
+    text-align: center;
+}
 .portfolio * {
+    display: inline-block;
     z-index: 2;
-    margin: 8% 5%;
     img {
         padding: 0 0;
         margin: 0 0;
@@ -26,34 +29,36 @@
                 width: 100%;
                 height: 100%;
                 text-align: center;
-                opacity: 0.8;
-                background: $header-desc-background-color;
+                background-color: $navy-transparent;
                 // background: $link-shadow;
                 //-webkit-transition: all ease .5s;
                 //-moz-transition: all ease .5s;
                 //transition: all ease .5s;
                 //font: 0/0 a;
-                //&::before {
-                //    content: ' ';
-                //    display: inline-block;
-                //    vertical-align: middle;
-                //    height: 100%;
-                //}
 
                 &:hover {
-                    opacity: 0.9;
+                    background-color: rgba( $navy, .5 );
+                    text-shadow: 0px 0px 4px rgb(29,46,59);
                 }
                 .caption-content {
-                    font-size: 1.2em;
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 100%;
+                    }
+                    text-shadow: 0px 0px 2px #000000;
                     text-transform: uppercase;
                     color: #fff;
-                    //margin: auto;
-                    text-align: center;
+                    // margin: auto;
+                    // text-align: center;
+		    text-size: 20px;
                     display: inline-block;
-                    vertical-align: middle;
-                    max-width: 80%;
-                    margin-left: 10%;
-                    margin-top: 15%;
+                    //vertical-align: middle;
+                    max-width: 90%;
+                    // min-height: 100%;
+                    // margin-left: 10%;
+                    // margin-top: 15%;
 
                     h3,
                     h4 {
@@ -67,10 +72,62 @@
 
 /* --- Responsive --- */
 
+/*
+@media screen and (min-width: $xs-break) {
+    .portfolio {
+        .caption-content {
+            p {
+            font-size: 14px;
+            }
+        }
+    }
+}*/
 @media screen and (max-width: $sm-break) {
     .portfolio {
         .caption-content {
-            font-size: 7px;
+            p {
+            font-size: 34px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $sm-break) {
+    .portfolio {
+        .caption-content {
+            p {
+            font-size: 36px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: $md-break) {
+    .portfolio {
+        .caption-content {
+            p {
+            font-size: 32px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $lg-break) {
+    .portfolio {
+        .caption-content {
+            p {
+            font-size: 22px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $xl-break) {
+    .portfolio {
+        .caption-content {
+            p {
+            font-size: 24px;
+            }
         }
     }
 }

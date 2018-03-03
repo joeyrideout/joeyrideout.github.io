@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Doing it For the Shill: Detecting Dishonest Advertising"
+title: "Detecting Shills and Dishonest Advertising"
 feature-img: "assets/img/portfolio/ttt.png"
 img: "assets/img/portfolio/ttt.png"
 date: February 26 2018

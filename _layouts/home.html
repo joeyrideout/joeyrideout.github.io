@@ -9,8 +9,16 @@ layout: default
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}
+  <div class="text-center">
+      <h1>Cryptocurrency Security Guides</h1>
+  </div>
 
+  {% include guides.html %}
+
+<section>
+<div class="row">
   <div class="posts">
+    <h1 class="text-center">Blog</h1>
     {% for post in paginator.posts %}
     <div class="post-teaser">
       {% if post.thumbnail %} 
@@ -20,11 +28,11 @@ layout: default
       {% endif %}
       <span>
           <header>
-            <h1>
+            <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
               </a>
-            </h1>
+            </h2>
             <p class="meta">
               {{ post.date | date: "%B %-d, %Y" }}
             </p>
@@ -57,3 +65,5 @@ layout: default
   </div>
   {% endif %}
 </div>
+</div>
+</section>

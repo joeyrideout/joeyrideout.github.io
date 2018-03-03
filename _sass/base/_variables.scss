@@ -13,6 +13,9 @@ $padding-x-small: 3%;
 // Brand colours
 $brand-color: #fff;
 $background-color: #fff;
+$navy: #1d2e3b;
+$navy-transparent: rgba(29,46,59, 0.8);
+$bright: #f92222; // #f06b13;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
@@ -37,8 +40,11 @@ $header-desc-background-color: #1d2e3b;
 $header-desc-text-color: #FFF;
 
 // Mobile display
-$break: 768px;
-$sm-break: 532px;
+$xl-break: 1368px;
+$lg-break: 1200px;
+$md-break: 992px;
+$sm-break: 768px;
+$xs-break: 532px;
 
 
 /*  Syntax highlighting  */
