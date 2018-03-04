@@ -6,6 +6,9 @@
     margin-left: 10%;
     margin-bottom: 2em;
 }
+.guide-footer {
+    font-size: 0.8em;
+}
 .portfolio * {
     display: inline-block;
     z-index: 2;
@@ -92,8 +95,8 @@
     .portfolio {
         .caption-content {
             p {
-            margin-top: 2vh;
-            font-size: 34px;
+            margin-top: 4vh;
+            font-size: 28px;
             }
         }
     }
@@ -103,8 +106,8 @@
     .portfolio {
         .caption-content {
             p {
-            margin-top: 3vh;
-            font-size: 32px;
+            margin-top: 4vh;
+            font-size: 30px;
             }
         }
     }
@@ -115,8 +118,8 @@
     .portfolio {
         .caption-content {
             p {
-            margin-top: 2vh;
-            font-size: 32px;
+            margin-top: 4vh;
+            font-size: 30px;
             }
         }
     }

@@ -13,8 +13,6 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <h2>Hi, I'm Joey.</h2>
-     <h3>I promote security awareness and research security incidents in the cryptocurrency space.</h3>
   header_text_feature_image: assets/img/navy-code.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

@@ -2,33 +2,41 @@
     <section>
   <div class="text-center guide-context">
       <h1>Cryptocurrency Security Guides</h1>
-      <p class="guide-detail">A free collection of security awareness resources for users of digital
-currencies, written by an I.T. security professional and reviewed by industry
-peers. The aim of these guides is to help adoption by reducing the risks
-involved in holding cryptocurrencies by providing straightforward guidance for
-a variety of scenarios all in one place.</p>
+      <p class="guide-detail">A free collection of security awareness resources
+for users of digital currencies, written by an I.T. security professional and
+reviewed by peers. The aim of these guides is to help adoption by
+reducing the risks involved in holding cryptocurrencies by providing guidance
+for a variety of scenarios all in one place. I hope that you find the guides
+useful, straightforward, and practical.</p>
 <p>See also: <a href="#">Cryptocurrency Security Top 10</a></p>
 </div>
         <div class="bootstrap-iso">
             <div class="col-md-1"></div>
             <div class="col-md-10 centered">
-<section class="portfolio">
-    <div class="row">
-        {% for item in site.guides %}
-        <div class="col-xl-1 col-lg-3 col-md-6 portfolio-item">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
-                <div class="caption" title="{{ item.title }}">
-                    <div class="caption-content">
-                        <p>{{ item.title }}</p>
+                <section class="portfolio">
+                    <div class="row">
+                        {% for item in site.guides %}
+                        <div class="col-xl-1 col-lg-3 col-md-6 portfolio-item">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
+                                <div class="caption" title="{{ item.title }}">
+                                    <div class="caption-content">
+                                        <p>{{ item.title }}</p>
+                                    </div>
+                                </div>
+                                <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
+                            </a>
+                        </div>
+                        {% endfor %}
                     </div>
-                </div>
-                <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
-            </a>
-        </div>
-        {% endfor %}
-    </div>
-</section>
+                </section>
             </div>    
             <div class="col-md-1"></div>
+  <div class="text-center guide-context">
+	<p class="guide-footer">These guides are
+        <a href="https://github.com/joeyrideout/joeyrideout.github.io">open source</a>.
+	Feel free to contribute! If you are not a developer, feel free to
+        contribute by sending clarifying questions and suggestions to:
+        questions@joeyrideout.com
         </div>
+</div>
     </section>
