@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Security for Exchanges
+title: Security Guide for Cryptocurrency Exchanges
 img: "assets/img/portfolio/github.png"
 date: February 26 2018
 tags: [Security, Guides]
