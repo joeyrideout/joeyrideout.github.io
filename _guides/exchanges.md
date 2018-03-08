@@ -6,7 +6,7 @@ date: February 26 2018
 tags: [Security, Guides]
 ---
 
-Securing cryptocurrency exchange is, without being hyperbolic, a monumental
+Securing a cryptocurrency exchange is, without being hyperbolic, a monumental
 task. Millions of dollars of digital assets are being managed, often with
 hundreds of different wallet implementations, with a high volume of users
 logged in to trade, deposit, and withdraw them at any moment. This complexity
