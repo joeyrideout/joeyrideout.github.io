@@ -5,11 +5,11 @@ url: "https://joeyrideout.com"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Joey Rideout
+  title: Exploit Economics
   avatar: assets/img/shirt.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "Security awareness and news in cryptocurrency." # used by search engines
+  description: "Applying financial analysis to information security risks." # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
