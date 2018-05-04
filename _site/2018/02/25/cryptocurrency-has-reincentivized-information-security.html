@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="/assets/js/jquery-3.2.1.min.js" ></script>
+
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/2018/02/25/cryptocurrency-has-reincentivized-information-security.html">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Joey Rideout" href="http://localhost:4000///feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- Bootstrap-3.3.7 isolation CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-iso.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+
+    <!-- KaTeX 0.8.3 -->
+    
+
+    <!-- Google Analytics -->
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Cryptocurrency has Reincentivized Information Security</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Cryptocurrency has Reincentivized Information Security" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Think about getting pickpocketed on the sidewalk but only losing an “empty” wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Is it the end of the world? Each of these items can be cancelled or replaced. You spend time cancelling and replacing them, sure, and you’ll have to spend some money replacing some of the cards along with your fancy RFID-blocking bifold, but your life is far from ruined. Information Security folks spend a lot of time trying to get people to care about their online security, but no wonder the average user is apathetic: on the web, their wallets are empty. Some data, but no cash." />
+<meta property="og:description" content="Think about getting pickpocketed on the sidewalk but only losing an “empty” wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Is it the end of the world? Each of these items can be cancelled or replaced. You spend time cancelling and replacing them, sure, and you’ll have to spend some money replacing some of the cards along with your fancy RFID-blocking bifold, but your life is far from ruined. Information Security folks spend a lot of time trying to get people to care about their online security, but no wonder the average user is apathetic: on the web, their wallets are empty. Some data, but no cash." />
+<link rel="canonical" href="http://localhost:4000/2018/02/25/cryptocurrency-has-reincentivized-information-security.html" />
+<meta property="og:url" content="http://localhost:4000/2018/02/25/cryptocurrency-has-reincentivized-information-security.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-02-25T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Think about getting pickpocketed on the sidewalk but only losing an “empty” wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Is it the end of the world? Each of these items can be cancelled or replaced. You spend time cancelling and replacing them, sure, and you’ll have to spend some money replacing some of the cards along with your fancy RFID-blocking bifold, but your life is far from ruined. Information Security folks spend a lot of time trying to get people to care about their online security, but no wonder the average user is apathetic: on the web, their wallets are empty. Some data, but no cash.","@type":"BlogPosting","url":"http://localhost:4000/2018/02/25/cryptocurrency-has-reincentivized-information-security.html","headline":"Cryptocurrency has Reincentivized Information Security","dateModified":"2018-02-25T00:00:00-05:00","datePublished":"2018-02-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/02/25/cryptocurrency-has-reincentivized-information-security.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>Cryptocurrency has Reincentivized Information Security | Joey Rideout</title>
+    <meta name="description" content="Think about getting pickpocketed on the sidewalk but only losing an “empty”wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Isit th...">
+    -->
+</head>
+
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+			<img class="avatar" src="/assets/img/shirt.jpg" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+			<a href="/">Joey Rideout</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul>
+        
+        
+        
+        
+        <li>
+            <a class="clear" href="/about/">
+                About
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/guides">
+                Guides
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/tags">
+                <i class="fa fa-tags" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+    </ul>
+        
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="background-image: url('/')">
+    <h1 id="Cryptocurrency+has+Reincentivized+Information+Security" class="title">Cryptocurrency has Reincentivized Information Security</h1>
+    <p class="meta">
+    February 25, 2018
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Think about getting pickpocketed on the sidewalk but only losing an “empty”
+wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Is
+it the end of the world? Each of these items can be cancelled or replaced. You
+spend time cancelling and replacing them, sure, and you’ll have to spend some
+money replacing some of the cards along with your fancy RFID-blocking bifold,
+but your life is far from ruined. Information Security folks spend a lot of
+time trying to get people to care about their online security, but no wonder
+the average user is apathetic: on the web, their wallets are empty. Some data,
+but no cash.</p>
+
+<p>Privacy is a concern, of course, but more people care about money. Or rather,
+people are directly incentivized to care about money. If I’m being honest,
+“lack of incentive” encapsulates the average user response to security
+initiatives pretty well. This sentiment is familiar to many Information
+Security professionals who aim to promote security among end users. Security
+awareness feels forced; we have to talk people into caring about the risks,
+which often ends up sounding a lot like scare-mongering. “Hackers are out to
+get you”, we say. Why is it so hard to get people to listen?</p>
+
+<p>Maybe it’s because following security advice often takes more effort than it’s
+worth.</p>
+
+<p>Stolen credit card numbers go for only <a href="https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx">$30 on the dark
+web</a>. Last time
+I checked, I can spend way more than thirty bucks with my credit card. <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=rfid+wallet">People
+spend more money on RFID-blocking
+wallets</a>.
+Why is stolen credit so inexpensive? In short, stolen credit is hard to use.
+Fraud detection and alerting systems are watching credit card accounts for
+suspicious activity, and the card can be frozen at the first sign of trouble.
+These security measures directly mitigate a lot of financial risk for the
+consumer. As a result, the end consumer feels relatively safe and isn’t
+incentivized to spend time and effort being extra careful when online shopping.</p>
+
+<p>Bank accounts have a similar markdown: <a href="https://www.mcafee.com/hk/about/news/2015/q4/20151015-01.aspx">$2200 accounts are sold for
+$190</a>. Bundle
+that with a stolen credit card and a user’s most precious digital accounts are
+worth a <i>tenth</i> of the price of a <a href="http://www.autotrader.ca/valuations/#?make=2000358&amp;model=2044205&amp;year=3513244&amp;km=200000&amp;local=N2J2K3&amp;trim=3873406&amp;mode=3&amp;condition=0">decade-old Honda Civic with 200000
+kms</a>.
+To quote my college buddy who recently parked such a car in a run-down
+neighbourhood, “who would steal that?”</p>
+
+<p>Maybe when the trite response of “I have nothing to hide” is rolled out, what a
+user really means is “if I lose this data, it won’t cost me very much”. Instead
+of producing yet another refutation by counterexample of the “I have nothing
+to hide” argument taken at face value (<i>yawn</i>), maybe the Information
+Security industry should simply listen to the users: they are telling us that
+their personal data isn’t very valuable. And, if I’m honest, there is truth in
+that message. All they have is an empty wallet. No cash. The black market for
+stolen data tells us the value: a few bucks per credit card number. Big whoop.
+Breach after breach, more and more of this data floods the black market. Users
+who assume that their data is already out there will value their data even
+less, and criminals will make less money by selling it. The former is what the
+Information Security industry has started calling <a href="https://sector.ca/why-we-must-fight-breach-fatigue/">“breach
+fatigue”</a>. I call it
+economics. An increasing supply of data breaches keeps lowering the unit cost
+of stolen user data on both the supply side and the demand side of the market.</p>
+
+<p><b>This trend is about to reverse completely, for one reason: digital currency
+is worth far more than personally identifiable information and financial
+account log-ins. A $2200 digital currency wallet is worth $2200.</b></p>
+
+<p>Information Security professionals are in the business of protecting digital
+assets, and digital money has just been invented. Let that sink in for a
+moment.</p>
+
+<p>The game has changed. Now there is cash for our proverbial pickpocket to
+pilfer. Scarcity now exists in the world of stolen data. Cryptocurrency is
+a deflationary asset in the black market, too.</p>
+
+<p>Tangible loss of irreplaceable digital assets is now a real risk for individual
+users. As a result, apathy for security in the cryptocurrency community is
+practically nonexistent. Everyone with a digital wallet seems appropriately
+concerned about keeping it safe. Message boards pass around security advice to
+new users because it is essential, and too many people have learned those
+lessons the hard way already. This scenario is a novelty for Information
+Security professionals: the average user genuinely cares about their security
+now. For the first time, security awareness is seeing an <i>organic growth in
+demand from end users</i>. This rise in demand makes sense, since more than
+just a few dollars worth of personal information is at stake. <b>I have yet to
+hear anybody say “I have nothing to hide” when discussing the security of their
+cryptocurrency wallet.</b> This organic demand for security awareness will only
+increase with adoption.</p>
+
+<p>Anecdotally, I have already had friends seek my advice regarding the security
+of digital currency that they own or hope to buy. Never in my entire life have
+my friends proactively asked me for security advice in a non-professional
+setting before cryptocurrency entered the scene. (Probably because their $2000
+used Civic is worth ten times more than their financial accounts on the dark
+web.)</p>
+
+<p>Consumers are exposed, and the baddies smell opportunity. Fraud detection
+systems do not yet exist to monitor cryptocurrency transactions, so criminals
+are not hindered. Gone are the days of selling batches of thousands of stolen
+credit card numbers for pennies on the dollar because they are so hard to
+actually use; digital coins are now easy to launder thanks to
+<a href="https://www.forbes.com/sites/rogeraitken/2018/02/15/u-s-cftc-commissioner-says-cryptocurrency-exchanges-adopting-self-regulation-could-spur-standards/#7a18509645e1">unregulated</a>
+(or completely
+<a href="https://coinsutra.com/best-decentralized-exchanges-dex/">decentralized</a>)
+exchanges as well as <a href="https://www.bitcoinbeginner.com/blog/privacy-coin-comparison/">privacy-centric
+coins</a> like
+Monero. <a href="https://www.us-cert.gov/ncas/alerts/TA14-295A">Cryptocurrency-funded
+ransomware</a> is already the norm.
+<a href="https://antivirus.comodo.com/blog/comodo-news/detect-remove-bitcoin-miner-virus/">Viruses</a>
+are now more profitable because the host machine’s computing resources can mine
+cryptocurrency instead of only being used as a network resource for wholesale
+DDoS attacks. <a href="https://www.coindesk.com/copycat-twitter-accounts-seek-to-scam-crypto-users/">Phishing
+scams</a>
+that used to walk users through <a href="https://corporate.bestbuy.com/best-buy-warns-gift-card-scam/">convoluted Best Buy gift card
+purchases</a> now
+have a frictionless method for being sent money.  Traders who likely have
+significant holdings may be hit with <a href="https://twitter.com/PhilakoneCrypto/status/967224205438865409">targeted
+attacks</a>*. See
+a trend? The incentive structure for cybercrime is changing, and it’s changing
+quickly.</p>
+
+<p>Thanks to cryptocurrencies, the stakes for falling victim to cybercrime have
+increased dramatically for end users: fail to protect your wallet, and thieves
+will empty it immediately before laundering its contents at market value
+through a privacy coin. Game over. There is no number you can call to cancel
+the transaction that emptied your wallet, and no authority you can call to
+replace the stolen goods.</p>
+
+<p>We shouldn’t underestimate the impact of this paradigm shift on the Information
+Security industry as cryptocurrency adoption continues. The internet is often
+referred to as a Wild West by security professionals, but it was missing
+something: <a href="http://storeofvalueblog.com/posts/cryptocurrency-hacks-so-far-august-24th/">digital bank
+robberies</a>.
+Now that there is digital cash to steal, we are truly in a Wild West. The
+incentives have made it so.</p>
+
+<hr />
+
+<p><span class="footnote">*I am speculating on the targeted nature of the linked incident. Targeted
+attack or not, prolific traders should see this incident as a cautionary tale.</span></p>
+</section>
+   
+   <!-- Tag list -->
+  
+  
+
+
+    <footer>
+        <div class="tag-list">
+        
+          <div class="meta">Tags</div>
+        
+            
+        
+          <a class="button" href="/tags#Industry Insight">
+            <p><i class="fa fa-tag fa-fw"></i> Industry Insight</p>
+          </a>
+        
+          <a class="button" href="/tags#Macroeconomic Trends">
+            <p><i class="fa fa-tag fa-fw"></i> Macroeconomic Trends</p>
+          </a>
+        
+        </div>
+    </footer>
+  
+
+    
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+  
+  
+</div>
+
+
+    </div>
+    <footer class="site-footer">
+            <div id="mc_embed_signup">
+<form action="https://joeyrideout.us17.list-manage.com/subscribe/post?u=46074adc8cafbe8db42bfb4c1&amp;id=e2fbd284b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Get new posts and guides (and nothing else)</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46074adc8cafbe8db42bfb4c1_e2fbd284b8" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+	<a href="http://localhost:4000////feed.xml" title="Follow RSS feed">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:joey@joeyrideout.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/joeyrideout" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://keybase.io/rideout" title="Follow on Keybase">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://ca.linkedin.com/in/joeyrideout" title="Follow on LinkedIn">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/joey_rideout" title="Follow on Twitter" class="type">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+  </body>
+</html>

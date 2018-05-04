@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://joeyrideout.com/</loc>
+  <lastmod>2016-06-30T01:33:07+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://joeyrideout.com/therideouthideout.html</loc>
+  <lastmod>2016-06-30T01:33:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://joeyrideout.com/static/cv.pdf</loc>
+  <lastmod>2015-10-05T01:56:11+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

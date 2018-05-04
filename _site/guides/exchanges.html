@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="/assets/js/jquery-3.2.1.min.js" ></script>
+
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/guides/exchanges">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Joey Rideout" href="http://localhost:4000///feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- Bootstrap-3.3.7 isolation CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-iso.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+
+    <!-- KaTeX 0.8.3 -->
+    
+
+    <!-- Google Analytics -->
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Security Guide for Cryptocurrency Exchanges</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Security Guide for Cryptocurrency Exchanges" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Securing a cryptocurrency exchange is, without being hyperbolic, a monumental task. Millions of dollars of digital assets are being managed, often with hundreds of different wallet implementations, with a high volume of users logged in to trade, deposit, and withdraw them at any moment. This complexity leads to a host of security demands: ensuring the integrity and availability of trades, ensuring consistency between user account balances and the distributed ledger, and offering users bulletproof authentication mechanisms, to name a few." />
+<meta property="og:description" content="Securing a cryptocurrency exchange is, without being hyperbolic, a monumental task. Millions of dollars of digital assets are being managed, often with hundreds of different wallet implementations, with a high volume of users logged in to trade, deposit, and withdraw them at any moment. This complexity leads to a host of security demands: ensuring the integrity and availability of trades, ensuring consistency between user account balances and the distributed ledger, and offering users bulletproof authentication mechanisms, to name a few." />
+<link rel="canonical" href="http://localhost:4000/guides/exchanges" />
+<meta property="og:url" content="http://localhost:4000/guides/exchanges" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-02-26T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Securing a cryptocurrency exchange is, without being hyperbolic, a monumental task. Millions of dollars of digital assets are being managed, often with hundreds of different wallet implementations, with a high volume of users logged in to trade, deposit, and withdraw them at any moment. This complexity leads to a host of security demands: ensuring the integrity and availability of trades, ensuring consistency between user account balances and the distributed ledger, and offering users bulletproof authentication mechanisms, to name a few.","@type":"BlogPosting","url":"http://localhost:4000/guides/exchanges","headline":"Security Guide for Cryptocurrency Exchanges","dateModified":"2018-02-26T00:00:00-05:00","datePublished":"2018-02-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/guides/exchanges"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>Security Guide for Cryptocurrency Exchanges | Joey Rideout</title>
+    <meta name="description" content="Securing a cryptocurrency exchange is, without being hyperbolic, a monumentaltask. Millions of dollars of digital assets are being managed, often withhundred...">
+    -->
+</head>
+
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+			<img class="avatar" src="/assets/img/shirt.jpg" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+			<a href="/">Joey Rideout</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul>
+        
+        
+        
+        
+        <li>
+            <a class="clear" href="/about/">
+                About
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/guides">
+                Guides
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/tags">
+                <i class="fa fa-tags" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+    </ul>
+        
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="background-image: url('/')">
+    <h1 id="Security+Guide+for+Cryptocurrency+Exchanges" class="title">Security Guide for Cryptocurrency Exchanges</h1>
+    <p class="meta">
+    February 26, 2018
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Securing a cryptocurrency exchange is, without being hyperbolic, a monumental
+task. Millions of dollars of digital assets are being managed, often with
+hundreds of different wallet implementations, with a high volume of users
+logged in to trade, deposit, and withdraw them at any moment. This complexity
+leads to a host of security demands: ensuring the integrity and availability of
+trades, ensuring consistency between user account balances and the distributed
+ledger, and offering users bulletproof authentication mechanisms, to name a
+few.</p>
+
+<p>As noted below in <i>Ongoing Research</i>, concrete and accessible guidance for
+securing a cryptocurrency exchange is currently lacking. However, since
+exchanges are largely web applications and APIs, their development falls firmly
+within the realm of Web Application Security. Many great resources exist within
+that domain to help developers secure their web applications that I will not
+attempt to replicate here. I will outline those more general guides before
+diving into some exchange-specific issues that I have observed so far as well
+as how to address them.</p>
+
+<h2 id="web-application-security">Web Application Security</h2>
+
+<p>The most prominent resource for web application security is the
+<a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASP Top 10</a>.
+These ten types of vulnerabiliteis are the quintessential items that you need
+to pay attention to when developing a secure web application. If you are in
+charge of building or maintaining a cryptocurrency exchange, and you do not
+know the Top 10 like the back of your hand, you should make it a priority
+before something bad happens. Period. This Top 10 is seen as “basic” or
+“low-hanging fruit” by application security practitioners because they are the
+juiciest targets that hackers will try first when inspecting your exchange for
+vulnerabilities. These ten are priorities because they are the most common and
+high-impact risks. Hackers who thoroughly check your exchange for each of the
+Top 10 vulnerabilities and come up dry may look to other exchanges for easier
+targets. Hackers that catch issues on your exchange that are within the Top 10
+will smell blood and dig deeper.</p>
+
+<p>On the same vein is 
+<a href="https://infosec.mozilla.org/guidelines/web_security.html">Mozilla’s web security cheat sheet</a>.
+Mozilla has put together a fantastic guide of application security controls
+(many of which at least partially mitigate OWASP Top 10 risks). They even went
+to the trouble of rating each one based on the security benefits and
+implementation difficulty. Because exchanges are businesses and businesses need
+to prioritize tasks and budget resources, these cost-benefit rankings are very
+pragmatic.</p>
+
+<h2 id="exchange-specific-application-security">Exchange-Specific Application Security</h2>
+
+<p><b>Race Conditions</b>
+A number of security incidents observed on cryptocurrency exchanges could be
+described as race conditions, or “time of check to time of use” (TOCTOU)
+vulnerabilities. These conditions commonly arise in accounting software,
+particularly when accounting is being done between disparate accounting
+systems: between a distributed ledger and an exchange order book, for example.</p>
+
+<p>In the wild: BitGrail Hack, …</p>
+
+<p><b>Phishing Attacks</b></p>
+
+<p>Beyond the lazy new “send ETH” Twitter scams, phishing attacks targeting
+cryptocurrency exchange users are a rising threat. This threat not only calls
+for careful implementation of technical controls, but behavioural controls as
+well. On the technical side, many phishing attacks exploit a lack of effective
+cross-site application security controls: CSRF protections, cross-origin access
+control, XSS mitigations, and similar. On the behavioural side, you need to
+raise awareness for your users while also spending time covering your
+weaknesses contextually: buying up typo domain names, unicode lookalike domain
+names, and similar social media handles, while also diligently seaching for,
+reporting and issuing takedown requests to potential imitator properties.</p>
+
+<p>In the wild: Binance attack</p>
+
+<h2 id="ongoing-research">Ongoing Research</h2>
+
+<p>Because cryptocurrency exchanges are private organizations, there is currently
+a lack of concrete information about how the “good” exchanges operate compared
+to how the “bad” ones operate. Researching how exchanges secure themselves behind
+the scenes is something that I am actively researching. Research questions include:</p>
+
+<ul>
+  <li>Which security controls were the most cost-effective for your exchange to implement? (Technical or otherwise.)</li>
+  <li>What level of auditing and logging do you perform, and which SIEM platform(s) do you use?</li>
+  <li>How much of your security system is automated? What happens when an “alarm” is tripped?</li>
+  <li>What level of security awareness do you provide to support staff?</li>
+  <li>How do incorporate security into your software development life cycle?</li>
+  <li>How do you conduct penetration testing? External teams, internal testers, a mix?</li>
+  <li>Which part of an exchange’s software is most critical, and what have you
+learned while maintaining those systems?</li>
+</ul>
+
+<p>If you or someone you know works at a cryptocurrency exchange and are
+interested in contributing to this community resource, please <a href="/contact/">have them get in
+touch with me</a>.</p>
+
+</section>
+   
+   <!-- Tag list -->
+  
+  
+
+
+    <footer>
+        <div class="tag-list">
+        
+          <div class="meta">Tags</div>
+        
+            
+        
+          <a class="button" href="/tags#Guides">
+            <p><i class="fa fa-tag fa-fw"></i> Guides</p>
+          </a>
+        
+          <a class="button" href="/tags#Security">
+            <p><i class="fa fa-tag fa-fw"></i> Security</p>
+          </a>
+        
+        </div>
+    </footer>
+  
+
+    
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+  
+  <div id="previous-post" class="post-nav-post">
+      <p>Previous post</p>
+      <a href="/guides/device-security">
+        Device Security and Antivirus for Coin Owners
+      </a>
+  </div>
+  
+  
+  <div id="next-post" class="post-nav-post">
+      <p>Next post</p>
+      <a href="/guides/moving-coins">
+        Moving Coins: How to Safely Transfer, Deposit, and Withdraw
+      </a>
+  </div>
+  
+</div>
+
+
+    </div>
+    <footer class="site-footer">
+            <div id="mc_embed_signup">
+<form action="https://joeyrideout.us17.list-manage.com/subscribe/post?u=46074adc8cafbe8db42bfb4c1&amp;id=e2fbd284b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Get new posts and guides (and nothing else)</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46074adc8cafbe8db42bfb4c1_e2fbd284b8" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+	<a href="http://localhost:4000////feed.xml" title="Follow RSS feed">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:joey@joeyrideout.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/joeyrideout" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://keybase.io/rideout" title="Follow on Keybase">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://ca.linkedin.com/in/joeyrideout" title="Follow on LinkedIn">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/joey_rideout" title="Follow on Twitter" class="type">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+  </body>
+</html>

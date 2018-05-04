@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="/assets/js/jquery-3.2.1.min.js" ></script>
+
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/search/">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Joey Rideout" href="http://localhost:4000///feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- Bootstrap-3.3.7 isolation CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-iso.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+
+    <!-- KaTeX 0.8.3 -->
+    
+
+    <!-- Google Analytics -->
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Search</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Search" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/search/" />
+<meta property="og:url" content="http://localhost:4000/search/" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/search/","headline":"Search","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>Search | Joey Rideout</title>
+    <meta name="description" content="Security awareness and news in cryptocurrency.">
+    -->
+</head>
+
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+			<img class="avatar" src="/assets/img/shirt.jpg" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+			<a href="/">Joey Rideout</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul>
+        
+        
+        
+        
+        <li>
+            <a class="clear" href="/about/">
+                About
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/guides">
+                Guides
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a class="clear" href="http://localhost:4000/tags">
+                <i class="fa fa-tags" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+    </ul>
+        
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header id="main" style="background-image: url('/assets/img/pexels/search-map.jpeg')">
+    <h1 id="Search" class="title">
+        Search
+    </h1>
+    
+    
+    <h2 class="subtitle">What are you looking for?</h2>
+    
+      
+  </header>
+  <section class="post-content"><!-- Html Elements for Search -->
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar">
+<br>
+<br>
+<ul id="results-container"></ul>
+
+<section>
+    <!-- Script pointing to jekyll-search.js -->
+    <script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: [
+                    
+                     
+                        {
+                          "title"    : "Cryptocurrency has Reincentivized Information Security",
+                          "category" : "",
+                          "tags"     : " Industry Insight, Macroeconomic Trends",
+                          "url"      : "/2018/02/25/cryptocurrency-has-reincentivized-information-security.html",
+                          "date"     : "February 25, 2018",
+                          "content"  : "Think about getting pickpocketed on the sidewalk but only losing an “empty”wallet. No cash. Only your credit cards, ID, and loyalty cards get stolen. Isit the end of the world? Each of these items can be cancelled or replaced. Youspend time cancelling and replacing them, sure, and you’ll have to spend somemoney replacing some of the cards along with your fancy RFID-blocking bifold,but your life is far from ruined. Information Security folks spend a lot oftime trying to get people to care about their online security, but no wonderthe average user is apathetic: on the web, their wallets are empty. Some data,but no cash.Privacy is a concern, of course, but more people care about money. Or rather,people are directly incentivized to care about money. If I’m being honest,“lack of incentive” encapsulates the average user response to securityinitiatives pretty well. This sentiment is familiar to many InformationSecurity professionals who aim to promote security among end users. Securityawareness feels forced; we have to talk people into caring about the risks,which often ends up sounding a lot like scare-mongering. “Hackers are out toget you”, we say. Why is it so hard to get people to listen?Maybe it’s because following security advice often takes more effort than it’sworth.Stolen credit card numbers go for only $30 on the darkweb. Last timeI checked, I can spend way more than thirty bucks with my credit card. Peoplespend more money on RFID-blockingwallets.Why is stolen credit so inexpensive? In short, stolen credit is hard to use.Fraud detection and alerting systems are watching credit card accounts forsuspicious activity, and the card can be frozen at the first sign of trouble.These security measures directly mitigate a lot of financial risk for theconsumer. As a result, the end consumer feels relatively safe and isn’tincentivized to spend time and effort being extra careful when online shopping.Bank accounts have a similar markdown: $2200 accounts are sold for$190. Bundlethat with a stolen credit card and a user’s most precious digital accounts areworth a tenth of the price of a decade-old Honda Civic with 200000kms.To quote my college buddy who recently parked such a car in a run-downneighbourhood, “who would steal that?”Maybe when the trite response of “I have nothing to hide” is rolled out, what auser really means is “if I lose this data, it won’t cost me very much”. Insteadof producing yet another refutation by counterexample of the “I have nothingto hide” argument taken at face value (yawn), maybe the InformationSecurity industry should simply listen to the users: they are telling us thattheir personal data isn’t very valuable. And, if I’m honest, there is truth inthat message. All they have is an empty wallet. No cash. The black market forstolen data tells us the value: a few bucks per credit card number. Big whoop.Breach after breach, more and more of this data floods the black market. Userswho assume that their data is already out there will value their data evenless, and criminals will make less money by selling it. The former is what theInformation Security industry has started calling “breachfatigue”. I call iteconomics. An increasing supply of data breaches keeps lowering the unit costof stolen user data on both the supply side and the demand side of the market.This trend is about to reverse completely, for one reason: digital currencyis worth far more than personally identifiable information and financialaccount log-ins. A $2200 digital currency wallet is worth $2200.Information Security professionals are in the business of protecting digitalassets, and digital money has just been invented. Let that sink in for amoment.The game has changed. Now there is cash for our proverbial pickpocket topilfer. Scarcity now exists in the world of stolen data. Cryptocurrency isa deflationary asset in the black market, too.Tangible loss of irreplaceable digital assets is now a real risk for individualusers. As a result, apathy for security in the cryptocurrency community ispractically nonexistent. Everyone with a digital wallet seems appropriatelyconcerned about keeping it safe. Message boards pass around security advice tonew users because it is essential, and too many people have learned thoselessons the hard way already. This scenario is a novelty for InformationSecurity professionals: the average user genuinely cares about their securitynow. For the first time, security awareness is seeing an organic growth indemand from end users. This rise in demand makes sense, since more thanjust a few dollars worth of personal information is at stake. I have yet tohear anybody say “I have nothing to hide” when discussing the security of theircryptocurrency wallet. This organic demand for security awareness will onlyincrease with adoption.Anecdotally, I have already had friends seek my advice regarding the securityof digital currency that they own or hope to buy. Never in my entire life havemy friends proactively asked me for security advice in a non-professionalsetting before cryptocurrency entered the scene. (Probably because their $2000used Civic is worth ten times more than their financial accounts on the darkweb.)Consumers are exposed, and the baddies smell opportunity. Fraud detectionsystems do not yet exist to monitor cryptocurrency transactions, so criminalsare not hindered. Gone are the days of selling batches of thousands of stolencredit card numbers for pennies on the dollar because they are so hard toactually use; digital coins are now easy to launder thanks tounregulated(or completelydecentralized)exchanges as well as privacy-centriccoins likeMonero. Cryptocurrency-fundedransomware is already the norm.Virusesare now more profitable because the host machine’s computing resources can minecryptocurrency instead of only being used as a network resource for wholesaleDDoS attacks. Phishingscamsthat used to walk users through convoluted Best Buy gift cardpurchases nowhave a frictionless method for being sent money.  Traders who likely havesignificant holdings may be hit with targetedattacks*. Seea trend? The incentive structure for cybercrime is changing, and it’s changingquickly.Thanks to cryptocurrencies, the stakes for falling victim to cybercrime haveincreased dramatically for end users: fail to protect your wallet, and thieveswill empty it immediately before laundering its contents at market valuethrough a privacy coin. Game over. There is no number you can call to cancelthe transaction that emptied your wallet, and no authority you can call toreplace the stolen goods.We shouldn’t underestimate the impact of this paradigm shift on the InformationSecurity industry as cryptocurrency adoption continues. The internet is oftenreferred to as a Wild West by security professionals, but it was missingsomething: digital bankrobberies.Now that there is digital cash to steal, we are truly in a Wild West. Theincentives have made it so.*I am speculating on the targeted nature of the linked incident. Targetedattack or not, prolific traders should see this incident as a cautionary tale."
+                        } 
+                     ,
+                     
+                    
+                  ],
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fa fa-tag"></i> {tags}</div></div><p>{category}</p></div><hr> ',
+            noResultsText: 'No results found',
+            limit: 10,
+            fuzzy: true,
+            exclude: []
+        })
+    </script>
+</section>
+</section>
+    
+    
+  <!-- Tag list for portfolio -->
+  
+  
+
+
+
+    
+</article>
+
+    </div>
+    <footer class="site-footer">
+            <div id="mc_embed_signup">
+<form action="https://joeyrideout.us17.list-manage.com/subscribe/post?u=46074adc8cafbe8db42bfb4c1&amp;id=e2fbd284b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Get new posts and guides (and nothing else)</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46074adc8cafbe8db42bfb4c1_e2fbd284b8" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+	<a href="http://localhost:4000////feed.xml" title="Follow RSS feed">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:joey@joeyrideout.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/joeyrideout" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://keybase.io/rideout" title="Follow on Keybase">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://ca.linkedin.com/in/joeyrideout" title="Follow on LinkedIn">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/joey_rideout" title="Follow on Twitter" class="type">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/rideout
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of https://joeyrideout.com
+* I am rideout (https://keybase.io/rideout) on keybase.
+* I have a public key with fingerprint 3C61 EBFB B84B 0421 D840  C976 64A0 6661 D78F 8700
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d62c817c6c2192d0a8fc40cbee4944f514602b5d97ffdcd3af310d103c1c882d0a",
+            "fingerprint": "3c61ebfbb84b0421d840c97664a06661d78f8700",
+            "host": "keybase.io",
+            "key_id": "64a06661d78f8700",
+            "kid": "0101d62c817c6c2192d0a8fc40cbee4944f514602b5d97ffdcd3af310d103c1c882d0a",
+            "uid": "a1640e3794307b0232e784d44f7f6a19",
+            "username": "rideout"
+        },
+        "revoke": {
+            "sig_ids": [
+                "2b2e272913adb4deacfb6e3ab81ed302cf36727b05f7f931ff3c89d042f918ab0f"
+                ]
+        },
+        "service": {
+            "hostname": "joeyrideout.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449109699,
+    "expire_in": 157680000,
+    "prev": "794cfd141565eb4393eecdba584a4fc9101c884afe5ac763b6eb3748fab64815",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMJ0AnicrZJ9aFZVHMefqSWOQqM/gmBDTuFLjnHOPeeec+9jqFMW2B9uOldI1sN5
+fXade+7jfe6ep4flDGOmUIMgdNSgYshjLCp7WZOapjUkBmXhC0ZFKfN1SqgV5HKd
+O+Z//dn953Dv/f4+3+/5nvP1/bNT1VWX75y4NcYWj1aNHf2zM/VU5sBXXUCEqgzS
+XaBdTy96q9KFONMeKJAGEEGkqCM9xCSVDvIdBblnJIFSaE18QoyLCIWOcJXPjFFS
+YW4wggpBLJH0vGQA1AET5LI6ykdBLrZYLCnSwgjhEQGJg5RngT6jlHBIKUWKecZj
+ENrBtrCQTNhwghd0fRDab/YlMx3vP/T/c+7OaRxHlECNmU8wZAI62NHMI8pSmKEc
++YmwoKMc79BWHQVKh50x2F4HIl0M23VSayHI2swFkH4GOMLRDnN8hLkSRGkujaAa
+c+EhrTB0pMGUOdbHtXgfI2Ow9HxlizI+8riABjxr2dawGMhpeFLSjPmWUJdnAtTL
+sMMmy0dhHMpwq/3ZFsf5QjoJFpfzibqkRWaGkxFBTtlTshNFHRWCMAfSyCplHCRg
+RIiPoE99vw7o5/NBpDNBonAZ9aB9Eh9dtEhbkjQKEeRSVwuCfay1VIK7HuHESAtJ
+6iXcaJdLRrHdusCMeIYLSjzkgmRn23JhYmlz8qxl2vJyPO6MNNh+7MvNc1JV1al7
+75mVXN9U9bwFdy9169q5U927+4fgy09ODfzQ8G62oeW9S30nu/sOPrrvpz2yCW4Z
+7/m2ufTEfRMj79+6+mDjoSVvH765qLVX9a54IDO+mNVX1r4z8V1jMTtYGy/beOEM
+ODZ6pXvbwB+nD65Zf+fC1Q8ePrK5Y2ThyKGNbx7+uG3Bql09H3623K85t2rJhuPn
+v+/5uffERztPheV/Xtkw68edXad/T41UHvpm6Z6Ovl+ONn0x+cLw7r3X5v3VUG66
+sX98x+pdy84NlSYqdZM7hlfOnvz78+uV4Zbet1z2afpsc+XV6sbn4I35Q7Wjb/x2
+ub/m6fljrdcaMpvw7Zdeb3mEr6taV2q+Xjr+WM3j6zcNvfjrJ7X9cy+u3FueOjI4
+8Nq/nu1qNA==
+=VkLH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rideout
+
+==================================================================
+

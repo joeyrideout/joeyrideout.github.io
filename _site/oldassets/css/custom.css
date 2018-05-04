@@ -1,0 +1,68 @@
+/************************************
+
+  Joey Rideout's Custom Blog Styles
+       Built on Skeleton V2.0.2
+         www.getskeleton.com
+
+************************************/
+.header { /* Static header banner. */
+  text-align: center;
+  width: 100%; /* Span banner across entire page. */
+}
+.icons {
+  text-align: center;
+  padding-bottom: 50px;
+}
+svg:hover path {
+  fill: red;
+}
+a:hover path, a:hover polygon, a:hover circle {
+  fill: red;
+}
+.two.columns {
+  max-width: 50%;
+}
+.icon {
+  margin: 15px;
+}
+a {
+  color: rgba(100, 100, 100, 1);
+}
+
+.profile-photo {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.header a {
+    color: #1D2E3B;
+}
+
+.title a {
+  text-decoration: none;
+}
+.about.post {
+  margin-bottom: 0.5rem;
+}
+ol {
+  font-family: Arial,sans-serif;
+}
+.footer {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.footer img {
+  height: 18px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.footer p {
+  margin: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.navy {
+  background: #2a4652;
+  color: white;
+}
